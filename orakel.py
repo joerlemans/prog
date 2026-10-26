@@ -4,3 +4,5 @@ def is_correct(ans: int,str) -> bool:
     else:
         return False
 
+if __name__ == '__main__':
+    
