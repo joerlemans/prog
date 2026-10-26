@@ -12,6 +12,7 @@ def overnight_costs(nights: int) -> float:
     dat je op vakantie gaat.
     
     """
+    return nights * 60
 
 def total_costs(km: int, nights: int) -> int:
     """
