@@ -1,3 +1,3 @@
 x = int(input())
 
-print
+print(abs(x))
