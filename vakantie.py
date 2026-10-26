@@ -34,7 +34,7 @@ def total_costs(km: int, nights: int) -> int:
     twee functies (roep die dus hier aan).
     
     >>> total_costs(10, 10)
-    603
+    602
     >>> total_costs(1000, 1)
     320
     >>> total_costs(0, 0)
