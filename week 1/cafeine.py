@@ -21,4 +21,4 @@ if __name__ == '__main__':
     energy = int(input("Hoeveel energiedrankjes?"))
     cola = int(input("Hoeveel glazen cola?"))
     caffeine = calculate_cafeine(coffee, tea, energy, cola)
-    print("Je krijgt {caffeine} ")
+    print("Je krijgt {caffeine} mg ")
