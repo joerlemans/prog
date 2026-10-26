@@ -9,5 +9,7 @@ if __name__ == '__main__':
     result = is_schrikkel(year)
     if result == True:
         print(f"{result} is een schrikkeljaar")
+    else:
+        p
     
     
