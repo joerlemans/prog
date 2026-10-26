@@ -2,6 +2,8 @@ def is_correct(ans: str) -> bool:
     """
     Geeft True als ans gelijk is aan een van de correcte antwoorden en geeft anders False
     
+    >>> is_correct("42")
+    True
     >>> is_correct(")
     """
     
