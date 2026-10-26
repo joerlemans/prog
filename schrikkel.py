@@ -1,6 +1,6 @@
 def is_schrikkel(year: int) -> bool:
     """
-    checkt of year een schrikkeljaar is e
+    geeft True als year een schrikkeljaar is e
     """
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
         return True
