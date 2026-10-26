@@ -9,3 +9,5 @@ if __name__ == '__main__':
     result = is_acidic(ph)
     if result = True:
         print("Het is een zuur")
+    else:
+        print("Het is een base")
