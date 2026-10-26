@@ -1,6 +1,7 @@
-def ant(ans: str) -> bool:
+def check_answer(answer: str) -> bool:
     """
-    Geeft True als ans gelijk is aan een van de correcte antwoorden en geeft anders False
+    Controleer of het antwoord op de vraag één van de opties
+    42, tweeenveertig, of tweeënveertig is.
     
     >>> is_correct("42")
     True
