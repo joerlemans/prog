@@ -8,7 +8,7 @@ def is_schrikkel(year: int) -> bool:
     >>> is_schrikkel(2024)
     True
     >>> is_schrikkel(0)
-    
+    Fals
     """
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
         return True
