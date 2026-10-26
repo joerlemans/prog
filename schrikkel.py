@@ -1,1 +1,2 @@
-def is_schrikkel(year: int) -> bool
+def is_schrikkel(year: int) -> bool:
+    
