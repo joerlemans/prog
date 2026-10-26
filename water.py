@@ -4,7 +4,8 @@ def hoeveelheid_water(minuten: int) -> int:
     gegeven het aantal minuten douchen.
     >>> hoeveelheid_water(0)
     0
-    >>> hoeveelheid_water()
+    >>> hoeveelheid_water(5)
+    
     
     """
     
