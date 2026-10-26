@@ -1,1 +1,1 @@
-def is_schrikkel(year)
+def is_schrikkel(year: int)
