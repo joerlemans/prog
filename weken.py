@@ -22,4 +22,4 @@ def weeks_elapsed(day1: int, day2: int) -> int:
     >>> weeks_elapsed(0, 365)
     52
     """
-    return (abs(day1 - day2)) // 7
+    #return (abs(day1 - day2)) // 7
