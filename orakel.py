@@ -5,4 +5,4 @@ def is_correct(ans: int,str) -> bool:
         return False
 
 if __name__ == '__main__':
-    ans = input()
+    ans = input("Wat")
