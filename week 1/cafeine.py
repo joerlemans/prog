@@ -6,6 +6,7 @@ def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
     coffee: een geheel getal
     tea: een geheel getal
     energy: een geheel getal
+    cola een geheel getal
       
     >>>calculate_cafeine(2, 1, 0, 0)
     225
