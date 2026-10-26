@@ -2,7 +2,7 @@ def is_acidic(ph) -> bool:
     """
     Geeft True als de ph lager is dan 7.0 en False als deze hoger is.
     
-    >>> 
+    >>> is_acidic()
     """
     if ph < 7.0:
         return True
