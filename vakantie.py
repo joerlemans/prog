@@ -20,7 +20,7 @@ def overnight_costs(nights: int) -> float:
     >>> overnight_costs(100)
     6000.0
     >>> overnight_costs(5)
-    300
+    300.0
     >>> overnight_costs(0)
     0
     """
