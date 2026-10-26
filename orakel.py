@@ -16,7 +16,7 @@ def ant(ans: str) -> bool:
 
 if __name__ == '__main__':
     ans = str(input("Wat is het antwoord?"))
-    result = is_correct(ans)
+    result = ant(ans)
     if result == True:
         print("Ja")
     else:
