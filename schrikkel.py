@@ -7,3 +7,4 @@ def is_schrikkel(year: int) -> bool:
 if __name__ == '__main__':
     year = int(input("Welk jaar is het?"))
     result = is_schrikkel(year)
+    
