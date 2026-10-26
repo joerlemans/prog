@@ -20,4 +20,4 @@ if __name__ == '__main__':
     tea = int(input("Hoeveel koppen thee?"))
     energy = int(input("Hoeveel energiedrankjes?"))
     cola = int(input("Hoeveel glazen cola?"))
-    caffeine = 
+    caffeine = calculate_cafeine(coffee, tea, energy, cola)
