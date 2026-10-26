@@ -5,7 +5,10 @@ def is_schrikkel(year: int) -> bool:
     True
     >>> is_schrikkel(500)
     False
-    >>> is_schrikkel()
+    >>> is_schrikkel(2024)
+    True
+    >>> is_schrikkel(0)
+    
     """
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
         return True
