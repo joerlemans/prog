@@ -1,3 +1,4 @@
 x = input()
 
-printprint(x)
+print(x) 
+print(x)
