@@ -1,1 +1,1 @@
-def is_correct(ans: int,)
+def is_correct(ans: int,str)
