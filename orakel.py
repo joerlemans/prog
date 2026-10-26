@@ -2,7 +2,7 @@ def is_correct(ans: str) -> bool:
     """
     Geeft True als ans gelijk is aan een van de correcte antwoorden en geeft anders False
     
-    >>> is_correct
+    >>> is_correct()
     """
     
     if ans == "42" or ans == "tweeenveertig" or ans == "tweeënveertig":
