@@ -8,7 +8,7 @@ if __name__ == '__main__':
     year = int(input("Welk jaar is het?"))
     result = is_schrikkel(year)
     if result == True:
-        print(f"{result} is een schrikkeljaar")
+        print(f"{year} is een schrikkeljaar")
     else:
         print(f"{result} is geen schrikkeljaar")
     
