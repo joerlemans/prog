@@ -16,8 +16,8 @@ def check_answer(answer: str) -> bool:
         return False
 
 if __name__ == '__main__':
-    ans = str(input("Wat is het antwoord?"))
-    result = ant(ans)
+    answer = str(input("Wat is het antwoord?"))
+    result = (ancs)
     if result == True:
         print("Ja")
     else:
