@@ -10,7 +10,7 @@ def check_answer(answer: str) -> bool:
     >>> is_correct("100")
     False
     """
-    if answer == "42" or ans == "tweeenveertig" or ans == "tweeënveertig":
+    if answer == "42" or answer == "tweeenveertig" or ans == "tweeënveertig":
         return True
     else:
         return False
