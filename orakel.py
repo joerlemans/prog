@@ -7,6 +7,7 @@ def is_correct(ans: str) -> bool:
     >>> is_correct("Hallo")
     False
     >>> is_correct("100")
+    
     """
     
     if ans == "42" or ans == "tweeenveertig" or ans == "tweeënveertig":
