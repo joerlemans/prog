@@ -38,7 +38,7 @@ def total_costs(km: int, nights: int) -> int:
     >>> total_costs(1000, 1)
     320.0
     >>> total_costs(0, 0)
-    0
+    0.0
     """
     
     return travel_costs(km) + overnight_costs(nights)
