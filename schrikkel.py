@@ -5,4 +5,4 @@ def is_schrikkel(year: int) -> bool:
         return False
 
 if __name__ == '__main__':
-    
+    year = int(input())
