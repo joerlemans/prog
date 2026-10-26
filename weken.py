@@ -18,7 +18,7 @@ def weeks_elapsed(day1: int, day2: int) -> int:
     >>> weeks_elapsed(0, 365)
     52
     """
-    return (abs())
+    return (abs(day1 - day2))
 if __name__ == '__main__':
     day1 = int(input("Dagnummer 1: "))
     day2 = int(input("Dagnummer 2: "))
