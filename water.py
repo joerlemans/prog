@@ -17,4 +17,4 @@ if __name__ == '__main__':
     minuten = int(input("Hoeveel minuten douche je?"))
     result = hoeveelheid_water(minuten)
     print(result)
-    <vraag input, roep functie aan, en print resultaat
+    #<vraag input, roep functie aan, en print resultaat
