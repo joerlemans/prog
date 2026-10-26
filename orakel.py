@@ -1,2 +1,2 @@
 def is_correct(ans: int,str) -> bool:
-    if ans ==
+    if ans == 42 or and
