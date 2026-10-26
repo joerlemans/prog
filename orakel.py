@@ -5,7 +5,7 @@ def check_answer(answer: str) -> bool:
     
     >>> check_answer("42")
     True
-    >>> is_correct("Hallo")
+    >>> check_answer("Hallo")
     False
     >>> is_correct("100")
     False
