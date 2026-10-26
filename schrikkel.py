@@ -10,6 +10,6 @@ if __name__ == '__main__':
     if result == True:
         print(f"{year} is een schrikkeljaar")
     else:
-        print(f"{result} is geen schrikkeljaar")
+        print(f"{year} is geen schrikkeljaar")
     
     
