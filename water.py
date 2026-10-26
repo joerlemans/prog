@@ -10,7 +10,7 @@ def hoeveelheid_water(minuten: int) -> int:
     >>> hoeveelheid_water(12)
     144
     """
-    return 
+    return minuten * 12
     
 
 if __name__ == '__main__':
