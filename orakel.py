@@ -4,7 +4,9 @@ def is_correct(ans: str) -> bool:
     
     >>> is_correct("42")
     True
-    >>> is_correct(")
+    >>> is_correct("Hallo")
+    False
+    >>> is_correct()
     """
     
     if ans == "42" or ans == "tweeenveertig" or ans == "tweeënveertig":
