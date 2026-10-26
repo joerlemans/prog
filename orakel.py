@@ -1,4 +1,4 @@
-def is_correct(ans: str) -> bool:
+def ant(ans: str) -> bool:
     """
     Geeft True als ans gelijk is aan een van de correcte antwoorden en geeft anders False
     
