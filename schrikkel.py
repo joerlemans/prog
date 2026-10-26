@@ -1,2 +1,5 @@
 def is_schrikkel(year: int) -> bool:
     
+
+if __name__ == '__main__':
+    
