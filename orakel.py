@@ -8,6 +8,6 @@ if __name__ == '__main__':
     ans = input("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?")
     result = is_correct(ans)
     if ans == True:
-        Print("Ja")
+        print("Ja")
     else:
         
