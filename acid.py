@@ -1,4 +1,4 @@
-def is_acidic(ph: ) -> bool:
+def is_acidic(ph: float) -> bool:
     """
     Geeft True als de ph lager is dan 7.0 en False als deze hoger is.
     
