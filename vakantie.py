@@ -33,7 +33,7 @@ def total_costs(km: int, nights: int) -> int:
     Deze functie delegeert zoveel mogelijk werk naar de andere
     twee functies (roep die dus hier aan).
     
-    >>> total_costs()
+    >>> total_costs(10, 10)
     """
     return km * 0.26 + nights * 60
 
