@@ -1,5 +1,6 @@
 def is_correct(ans: str) -> bool:
     """
+    
     """
     
     if ans == "42" or ans == "tweeenveertig" or ans == "tweeënveertig":
