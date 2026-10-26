@@ -13,5 +13,6 @@ def weeks_elapsed(day1: int, day2: int) -> int:
     1
     >>> weeks_elapsed(10, 10)
     0
-    >>> weeks_elapsed()
+    >>> weeks_elapsed(0, 365)
+    52
     """
