@@ -3,12 +3,6 @@ def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
     Berekent de hoeveelheid cafeine op basis van de hoeveelheid gedronken
     drankjes van het type koffie, thee, energie, en cola.
     
-    coffee: een geheel getal
-    tea: een geheel getal
-    energy: een geheel getal
-    cola: een geheel getal
-    return: een geheel getal
-    
     >>>calculate_cafeine(2, 1, 0, 0)
     225
     >>>calculate_cafeine(2, 0, 2, 0)
