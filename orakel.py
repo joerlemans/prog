@@ -10,4 +10,4 @@ if __name__ == '__main__':
     if ans == True:
         print("Ja")
     else:
-        
+        print("Nee")
