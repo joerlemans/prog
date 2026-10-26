@@ -40,7 +40,7 @@ def total_costs(km: int, nights: int) -> int:
     >>> total_costs(0, 0)
     0
     """
-    travel =
+    
     return travel_costs + overnight_costs
 
 if __name__ == '__main__':
