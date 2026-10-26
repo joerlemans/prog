@@ -1,6 +1,6 @@
 def is_acidic(ph) -> bool:
     """
-    
+    Bepaald of de 
     """
     if ph < 7.0:
         return True
