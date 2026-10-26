@@ -9,7 +9,7 @@ def is_correct(ans: str) -> bool:
     >>> is_correct("100")
     False
     """
-    if ans == "42" or == "tweeenveertig" or "tweeënveertig":
+    if ans == "42" or == "tweeenveertig" or == "tweeënveertig":
         return True
     else:
         return False
