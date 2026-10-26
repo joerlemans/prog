@@ -9,7 +9,7 @@ def travel_costs(km: int) -> float:
     0.78
     >>> travel_costs(0)
     0
-    
+
     """
     return km * 0.26
 
