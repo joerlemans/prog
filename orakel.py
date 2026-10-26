@@ -1,1 +1,2 @@
-def is_correct(ans: int,str)
+def is_correct(ans: int,str) -> bool:
+    
