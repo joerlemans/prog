@@ -17,7 +17,7 @@ def check_answer(answer: str) -> bool:
 
 if __name__ == '__main__':
     answer = str(input("Wat is het antwoord?"))
-    result = (answer)
+    result = check_answer(answer)
     if result == True:
         print("Ja")
     else:
