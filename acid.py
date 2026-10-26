@@ -7,6 +7,7 @@ def is_acidic(ph) -> bool:
     >>> is_acidic(9.0)
     False
     >>> is_acidic(0.0)
+    True
     """
     if ph < 7.0:
         return True
