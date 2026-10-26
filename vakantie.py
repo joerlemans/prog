@@ -40,7 +40,7 @@ def total_costs(km: int, nights: int) -> int:
     >>> total_costs(0, 0)
     0
     """
-    return km * 0.26 + nights * 60
+    return 
 
 if __name__ == '__main__':
     km = int(input("Hoe ver ga je weg in kilometers?"))
