@@ -22,7 +22,7 @@ def print_collatz(n: int) ->:
         else:
             n = n * 3 + 1
             print(n)
-    return
+    return n
 
 def collatz_length(n: int):
     """
