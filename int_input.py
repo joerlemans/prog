@@ -20,7 +20,7 @@ def get_min_int(n) -> int:
     """
     """
     result = int(input("Voer een integer in van minimaal 100: "))
-    
+    while result
 
 if __name__ == '__main__':
     get_positive_int()
