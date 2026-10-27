@@ -13,7 +13,7 @@ def print_collatz(n):
 def collatz_length(n):
     """
     """ 
-    count = 0
+    count = 1
     while n > 1:
         if n % 2 == 0:
             n = n / 2
