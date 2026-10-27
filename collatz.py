@@ -11,6 +11,7 @@ def print_collatz(n: int) -> int:
     4
     2
     1
+    1
     >>> print_collatz(0)
     0
     0
