@@ -1,1 +1,1 @@
-def
+def print_collatz()
