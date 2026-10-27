@@ -10,7 +10,7 @@ def print_collatz(n: int) -> int:
     8.0
     4.0
     2.0
-    1.0
+    1
     >>> print_collatz(0)
     0
     """
