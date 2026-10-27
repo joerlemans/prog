@@ -40,6 +40,6 @@ if __name__ == '__main__':
         print("De rechthoeken zijn gelijk!")
     
     if is_same_square(ax_length, ay_length, bx_length, by_length) == True:
-        print("En ze zijn ook nog vierkant")
+        print("En ze zijn ook nog vierkant!")
     
    
