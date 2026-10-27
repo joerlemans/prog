@@ -1,6 +1,6 @@
 def get_positive_int() -> int:
     """
-    
+    checkt of de input een positieve integer is
     """
     result = int(input("Voer een positieve integer in: "))
     while result < 1:
