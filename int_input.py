@@ -30,7 +30,8 @@ def get_two_different_ints() -> int:
     """
     result1 = int(input("Voer een integer in: "))
     result2 = int(input("Voer een andere integer in: "))
-    while result1 == re
+    while result1 == result2:
+        
 
 if __name__ == '__main__':
     get_positive_int()
