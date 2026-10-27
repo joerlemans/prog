@@ -13,6 +13,7 @@ def print_collatz(n: int) -> int:
     1
     >>> print_collatz(0)
     0
+    0
     """
     print(n)
     while n > 1:
