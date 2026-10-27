@@ -25,7 +25,7 @@ def get_min_int(n: int) -> int:
         result = int(input("Voer een integer in van minimaal 100: "))
     return result
     
-def get_two_different_ints() -> tupple:
+def get_two_different_ints() -> tuple:
     """
     checkt of de twee inputs verschillen
     """
