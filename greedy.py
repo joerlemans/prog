@@ -14,7 +14,8 @@ def count_coins(cents: int) -> int:
         cents -= 5
         count += 1
     while cents >= 1:
-        
+        cents -= 1
+        count += 1
 
 if __name__ == '__main__':
     result = float(input("Voer een bedrag in: "))
