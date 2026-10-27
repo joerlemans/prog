@@ -1,6 +1,6 @@
 def print_collatz(n):
     """
-    print de collatzreeks regel voor regel uit
+    print de collatzreeks regel voor regel uit voor n
     
     >>> print_collatz(3)
     3
