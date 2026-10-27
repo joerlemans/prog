@@ -23,6 +23,7 @@ def calculate_length(c1: int, c2: int) -> int:
     return abs(c2 - c1)
 
 if __name__ == '__main__':
+    
     ax1 = int(input("Geef de x1 van A: "))
     ax2 = int(input("Geef de x2 van A: "))
     ay1 = int(input("Geef de y1 van A: "))
