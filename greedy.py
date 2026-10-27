@@ -5,6 +5,6 @@ def count_coins(cents: int) -> int:
     """
 
 if __name__ == '__main__':
-    result = flo
+    result = float(input)
     <Vraag om het bedrag tot het geldig is, zet het om naar centen,
     roep de functie aan en print het aantal munten>
