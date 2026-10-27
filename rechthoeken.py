@@ -18,6 +18,8 @@ def is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length: in
     """
     Controleert of beide rechthoeken hetzelfde vierkant zijn
     
+    >>> is_same_square(0, 0, 0, 0)
+    True
     >>> is_same_square()
     """
     if ax_length == ay_length == bx_length == by_length:
