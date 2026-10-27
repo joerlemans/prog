@@ -14,4 +14,4 @@ def collatz_length(n):
     """
     """ 
 
-print_collatz(3.6)
+print_collatz(3)
