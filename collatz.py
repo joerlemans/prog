@@ -8,6 +8,7 @@ def print_collatz(n):
         else:
             n = n * 3 + 1
             print(n)
+    print(n)
 
 def collatz_length(n):
     """
