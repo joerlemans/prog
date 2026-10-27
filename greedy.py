@@ -6,6 +6,7 @@ def count_coins(cents: int) -> int:
     count = 0
     while cents >= 25:
         cents -= 25
+        count += 1
     while cents 
 
 if __name__ == '__main__':
