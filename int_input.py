@@ -29,7 +29,7 @@ def get_two_different_ints() -> int:
     """
     """
     result1 = int(input("Voer een integer in: "))
-    result1 = int(input("Voer een integer in: "))
+    result2 = int(input("Voer een integer in: "))
 
 if __name__ == '__main__':
     get_positive_int()
