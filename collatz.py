@@ -26,6 +26,10 @@ def print_collatz(n):
 def collatz_length(n):
     """
     geeft de lengte van de collatzreeks voor startwwarde n
+    
+    >>> collatz_length(3)
+    8
+    >>>
     """ 
     count = 1
     while n > 1:
