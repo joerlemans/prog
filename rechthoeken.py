@@ -22,7 +22,8 @@ def is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length: in
     True
     >>> is_same_square(6, 6, 6, 6)
     True
-    >>> is_same_square()
+    >>> is_same_square(3, 4, 3, 3)
+    False
     """
     if ax_length == ay_length == bx_length == by_length:
         return True
