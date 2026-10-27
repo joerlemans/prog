@@ -17,6 +17,6 @@ def calculate_length(c1: int, c2: int) -> int:
 if __name__ == '__main__':
     ax1 = int(input())
     ax2 = int(input())
-    ax_length = calculate_length(c1, c2)
+    ax_length = calculate_length(ax1, c2)
     
     <Hoofdprogramma>
