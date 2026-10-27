@@ -43,6 +43,6 @@ if __name__ == '__main__':
         print("En ze zijn ook nog vierkant!")
     
     else:
-        print
+        print()
     
    
