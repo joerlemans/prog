@@ -17,12 +17,6 @@ def get_any_int_but_0() -> int:
     return result
 
 
-    
-    
-
-
-
-
 
 if __name__ == '__main__':
     get_positive_int()
