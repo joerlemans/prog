@@ -18,4 +18,5 @@ if __name__ == '__main__':
     c1 = int(input())
     c2 = int(input())
     
+    
     <Hoofdprogramma>
