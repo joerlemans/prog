@@ -17,7 +17,7 @@ def print_collatz(n: int) -> int:
     print(n)
     while n > 1:
         if n % 2 == 0:
-            n = int(n / 2
+            n = int(n / 2)
             print(n)
         else:
             n = n * 3 + 1
