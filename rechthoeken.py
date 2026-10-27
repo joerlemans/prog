@@ -2,7 +2,7 @@ def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length:
     """
     Controleert of de lengtes van de zijdes gelijk zijn
     
-    >>> is_same_rectangle(6, 6, 10, 10)
+    >>> is_same_rectangle(6, 10, 10, 10)
     True
     >>> is_same_rectangle(6, 8, 7, 9)
     False
