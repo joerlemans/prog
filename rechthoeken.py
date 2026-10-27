@@ -62,7 +62,7 @@ if __name__ == '__main__':
     if is_same_rectangle(ax_length, ay_length, bx_length, by_length) == True:
         print("De rechthoeken zijn gelijk!")
     
-    else if  is_same_square(ax_length, ay_length, bx_length, by_length) == True:
+    if is_same_square(ax_length, ay_length, bx_length, by_length) == True:
         print("En ze zijn ook nog vierkant!")
     
     else:
