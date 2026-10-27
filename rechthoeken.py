@@ -26,6 +26,6 @@ if __name__ == '__main__':
     ax_length = calculate_length(ax1, ax2)
     ay_length = calculate_length(ay1, ay2)
     bx_length = calculate_length(bx1, bx2)
-    
+    by_length = calculate_length(by1, by2)
     
     <Hoofdprogramma>
