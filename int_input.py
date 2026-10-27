@@ -3,7 +3,7 @@ def get_positive_int() -> int:
     """
     result = input("Voer een positieve integer in: ")
     while result < 1:
-        result = input
+        result = input("Voer een positieve integer in: ")
     
 
 
