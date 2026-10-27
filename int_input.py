@@ -27,6 +27,7 @@ def get_min_int(n) -> int:
     
 def get_two_different_ints() -> int:
     """
+    checkt of de twee inputs verschillen
     """
     result1 = int(input("Voer een integer in: "))
     result2 = int(input("Voer een andere integer in: "))
