@@ -20,7 +20,7 @@ def collatz_length(n):
             count =+ 1
         else:
             n = n * 3 + 1
-            count =+ 1
+            count += 1
     print(count)
 
 print_collatz(3)
