@@ -19,7 +19,7 @@ def count_coins(cents: int) -> int:
     return count 
 
 if __name__ == '__main__':
-    result = float(input("Voer een bedrag in: "))
+    result = input("Voer een bedrag in: ")
     while result <= 0.0:
         result = float(input("Voer een bedrag in: "))
     resul = result * 100
