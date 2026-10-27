@@ -12,7 +12,7 @@ def calculate_length(c1: int, c2: int) -> int:
     """
     Berekent de lengte van een zijde op basis van twee coördinaten
     """
-    return abs()
+    return abs(c2 - c1)
 
 if __name__ == '__main__':
     <Hoofdprogramma>
