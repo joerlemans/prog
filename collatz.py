@@ -24,7 +24,7 @@ def print_collatz(n: int) -> int:
             print(n)
     return n
 
-def collatz_length(n: int):
+def collatz_length(n: int) -> int:
     """
     geeft de lengte van de collatzreeks voor startwwarde n
     
