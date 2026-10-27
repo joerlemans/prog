@@ -9,5 +9,6 @@ if __name__ == '__main__':
     while result <= 0.0:
         result = float(input("Voer een bedrag in: "))
     
+    
     <Vraag om het bedrag tot het geldig is, zet het om naar centen,
     roep de functie aan en print het aantal munten>
