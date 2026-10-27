@@ -1,6 +1,6 @@
 def print_collatz(n):
     """
-    
+    print de collatzreeks regel voor regel uit
     """
     print(n)
     while n > 1:
