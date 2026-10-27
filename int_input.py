@@ -1,6 +1,8 @@
 def get_positive_int() -> int:
     """
-    checkt of de input een positieve integer is
+    checkt of de input een positieve integer is 
+    
+    >>> get_positive_int
     """
     result = int(input("Voer een positieve integer in: "))
     while result < 1:
