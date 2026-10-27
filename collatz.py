@@ -25,6 +25,7 @@ def print_collatz(n):
 
 def collatz_length(n):
     """
+    geeft de 
     """ 
     count = 1
     while n > 1:
