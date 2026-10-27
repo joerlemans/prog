@@ -18,7 +18,7 @@ def get_any_int_but_0() -> int:
 
 def get_min_int(n) -> int:
     """
-    checkt of de in
+    checkt of de input minimaal n is
     """
     result = int(input("Voer een integer in van minimaal 100: "))
     while result < n:
