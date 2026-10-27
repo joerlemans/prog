@@ -5,11 +5,11 @@ def print_collatz(n: int) -> int:
     >>> print_collatz(3)
     3
     10
-    5.0
-    16.0
-    8.0
-    4.0
-    2.0
+    5
+    16
+    8
+    4
+    2
     1
     >>> print_collatz(0)
     0
