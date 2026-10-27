@@ -26,6 +26,8 @@ def get_min_int(n) -> int:
     return result
     
 def get_two_different_ints() -> int:
+    """
+    """
     
 
 if __name__ == '__main__':
