@@ -36,6 +36,6 @@ if __name__ == '__main__':
     bx_length = calculate_length(bx1, bx2)
     by_length = calculate_length(by1, by2)
     
-    
+    if 
     
     <Hoofdprogramma>
