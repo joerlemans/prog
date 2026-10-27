@@ -37,6 +37,8 @@ if __name__ == '__main__':
     by_length = calculate_length(by1, by2)
     
     if is_same_rectangle(ax_length, ay_length, bx_length, by_length) == True:
-        print()
+        print("De rechthoeken zijn gelijk!")
+    
+    if 
     
     <Hoofdprogramma>
