@@ -22,4 +22,5 @@ def collatz_length(n):
             n = n * 3 + 1
             count =+ 1
     print(count)
+
 print_collatz(3)
