@@ -9,7 +9,7 @@ def get_positive_int() -> int:
 
 def get_any_int_but_0() -> int:
     """
-    checkt of de input een integer 
+    checkt of de input een integer behalve 0 is
     """
     result = int(input("Voer een integer in behalve 0: "))
     while result == 0:
