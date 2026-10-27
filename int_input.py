@@ -16,7 +16,8 @@ def get_any_int_but_0() -> int:
         result = int(input("Voer een integer in behalve 0: "))
     return result
 
-def get_min_int(n)
+def get_min_int(n) -> int:
+    
 
 if __name__ == '__main__':
     get_positive_int()
