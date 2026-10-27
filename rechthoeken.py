@@ -27,4 +27,5 @@ if __name__ == '__main__':
     ay_length = calculate_length(ay1, ay2)
     bx_length = calculate_length(bx1, bx2)
     
+    
     <Hoofdprogramma>
