@@ -17,6 +17,8 @@ def get_any_int_but_0() -> int:
     return result
 
 def get_min_int(n) -> int:
+    """
+    """
     
 
 if __name__ == '__main__':
