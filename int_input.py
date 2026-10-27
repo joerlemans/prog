@@ -13,6 +13,7 @@ def get_any_int_but_0() -> int:
     result = int(input("Voer een integer in behalve 0: "))
     while result == 0:
         result = int(input("Voer een integer in behalve 0: "))
+    return result
     
     
 
