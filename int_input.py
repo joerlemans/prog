@@ -6,6 +6,7 @@ def get_positive_int() -> int:
         result = int(input("Voer een positieve integer in: "))
     return result
 
+def get
     
     
 
