@@ -15,7 +15,7 @@ def calculate_length(c1: int, c2: int) -> int:
     return abs(c2 - c1)
 
 if __name__ == '__main__':
-    ax1 = int(input())
+    ax1 = int(input(""))
     ax2 = int(input())
     ax_length = calculate_length(ax1, ax2)
     
