@@ -1,7 +1,7 @@
 def get_positive_int() -> int:
     """
     """
-    result = input("Voer een posi")
+    result = input("Voer een positieve integer in: ")
 
 
 
