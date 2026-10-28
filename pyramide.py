@@ -4,6 +4,7 @@ def build_pyramide(hoogte: int) -> int:
         for i in lvl:
             print('#', end='')
         lvl += 1
+        print
     return
         
 if __name__ == '__main__':
