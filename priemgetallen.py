@@ -42,7 +42,7 @@ def zoveelste_priem(N: int) -> int:
     """
     berekent het N'de priemgetal
     
-    >>>zoveelste_priem(10)
+    >>> zoveelste_priem(10)
     29
     >>>zoveelste_priem(1000)
     7919
