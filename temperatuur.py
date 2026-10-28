@@ -19,7 +19,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     
     
     while begin_temp < end_temp:
-        begin_temp = convert_temperature(old_type, begin_temp)
+        new_temp = convert_temperature(old_type, begin_temp)
         print(f"{begin_temp:3}")
         
 
