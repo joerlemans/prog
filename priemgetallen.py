@@ -27,6 +27,7 @@ def print_priem_tot(N: int) -> None:
     11
     13
     17
+    19
     """
     for i in range(2, N+1):
         if is_priem(i) == True:
