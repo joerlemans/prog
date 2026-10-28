@@ -4,5 +4,5 @@ def is_priem(num: int) -> bool:
             return False
     return True
 
-def print_priem_tot(N: int)
+def print_priem_tot(N: int) ->
 print(is_priem())
