@@ -1,6 +1,6 @@
 def is_priem(num: int) -> bool:
     """
-    berekend of
+    berekent of num een priemgetal is
     """
     if num == 1:
         return False
