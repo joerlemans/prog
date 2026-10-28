@@ -11,6 +11,6 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
 
 if __name__ == '__main__':
     old_type = str(input("Welke eenheid van temperatuur (C of F)?"))
-    while old_type is not in {"c", "C"}:
+    while old_type is not in {"c", "C", "f", "F"}:
         old_type = str(input("Welke eenheid van temperatuur (C of F)?"))
     print(old_type)
