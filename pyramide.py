@@ -1,6 +1,6 @@
 def build_pyramide(hoogte: int) -> int:
     lvl = 1
-    while lvl < hoogte:
+    while lvl <= hoogte:
         print('#', end='')
         
 if __name__ == '__main__':
