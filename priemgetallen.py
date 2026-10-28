@@ -30,7 +30,8 @@ def print_priem_tot(N: int) -> None:
     19
     23
     29
-    >>>
+    >>>print_priem_tot(0)
+    
     """
     for i in range(2, N+1):
         if is_priem(i) == True:
