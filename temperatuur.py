@@ -19,7 +19,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     Print de conversie-tabel.
     
     >>> print_table("c", 10, 10, 5)
-    "  C |   F
+      C |   F
     """
     if old_type in {"c", "C"}:
         if begin_temp == end_temp:
