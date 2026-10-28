@@ -1,7 +1,7 @@
 def is_priem(num: int) -> bool:
     """
     berekent of num een priemgetal is_priem
-    >>>
+    >>>is_priem()
     """
     if num == 1:
         return False
