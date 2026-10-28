@@ -8,4 +8,4 @@ def is_priem(num: int) -> bool:
     #for i in range(2, N+1)
 
 
-print(is_priem(2))
+print(is_priem(1))
