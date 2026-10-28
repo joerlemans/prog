@@ -1,1 +1,2 @@
-def is_priem()
+def is_priem(num: int) -> bool:
+    
