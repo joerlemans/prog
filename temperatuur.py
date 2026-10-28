@@ -13,7 +13,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
         print(" C |   F")
     
     while begin_temp < end_temp:
-        print(f"{convert_temperature():}")
+        print(f"{convert_temperature():3}")
         
 
 if __name__ == '__main__':
