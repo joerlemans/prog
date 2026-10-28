@@ -1,4 +1,4 @@
-def build_pyramide(n: int) ->
+def build_pyramide(hoogte: int) ->
 
 if __name__ == '__main__':
     hoogte = int(input("Hoe hoog is de pyramide? (max 23)")
