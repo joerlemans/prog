@@ -20,7 +20,13 @@ def print_priem_tot(N: int) -> None:
     print alle priemgetallen tot en met het getal N
     
     >>> print_priem_tot(10)
-    
+    2
+    3
+    5
+    7
+    11
+    13
+    17
     """
     for i in range(2, N+1):
         if is_priem(i) == True:
