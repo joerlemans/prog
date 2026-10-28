@@ -10,6 +10,7 @@ def print_priem_tot(N: int) -> None:
     for i in range(2, N+1):
         if is_priem(i) == True:
             print(i)
+    return
 
 
 print(is_priem(1))
