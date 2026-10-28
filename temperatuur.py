@@ -23,7 +23,8 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     >>> print_table("F", 0, 10, 2)
       F |   C
       0 | -17
-      2 | 
+      2 | -16
+      4 | 
     """
     if old_type in {"c", "C"}:
         if begin_temp == end_temp:
