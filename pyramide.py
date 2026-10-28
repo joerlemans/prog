@@ -1,7 +1,8 @@
 def build_pyramide(hoogte: int) -> int:
     lvl = 1
     while lvl <= hoogte:
-        for i in (hoogte - lvl)
+        for i in (hoogte - lvl):
+            print(' ', end='')
         for i in lvl:
             print('#', end='')
         lvl += 1
