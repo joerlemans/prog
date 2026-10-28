@@ -16,7 +16,7 @@ if __name__ == '__main__':
         start = int(input("Start populatie: "))
     end = int(input("Eind populatie: "))
     while end <= start:
-        end = int(input("Eind jaar: "))
+        end = int(input("Eind populatie: "))
     print(calculate_years(start, end))
         
     
