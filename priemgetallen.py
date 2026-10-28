@@ -13,7 +13,7 @@ def print_priem_tot(N: int) -> None:
     return
 
 def zoveelste_priem(N: int) > int:
-    count = 0
+    count = 1
     while count <= N:
         
 
