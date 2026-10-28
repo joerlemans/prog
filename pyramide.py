@@ -3,7 +3,7 @@ def build_pyramide(hoogte: int) -> int:
     print een pyramide van haakjes
     
     >>> build_pyramide(5)
-    
+        
     """
     lvl = 1
     while lvl <= hoogte:
