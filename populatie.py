@@ -9,5 +9,6 @@ if __name__ == '__main__':
     while start <= 9:
         start = int(input("Start jaar: "))
     end = int(input("Eind jaar: "))
-    while end <= start
+    while end <= start:
+        
     
