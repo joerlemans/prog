@@ -7,7 +7,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     while start_size < end_size:
         start_size = round(start_size + start_size / 3 - start_size / 4)
         count += 1
-    return count
+    return start_size
     
 
 if __name__ == '__main__':
