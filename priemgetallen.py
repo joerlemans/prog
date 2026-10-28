@@ -43,6 +43,7 @@ def zoveelste_priem(N: int) -> int:
     berekent het N'de priemgetal
     
     >>>zoveelste_priem(10)
+    29
     
     """
     count = 0
