@@ -19,7 +19,7 @@ def print_priem_tot(N: int) -> None:
     """
     print alle priemgetallen tot en met het getal N
     
-    >>> print_priem_tot(10)
+    >>>print_priem_tot(10)
     2
     3
     5
