@@ -1,3 +1,3 @@
 from priem_getal import is_priem
 
-def
+def zoek_langste_reeks
