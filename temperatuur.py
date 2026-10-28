@@ -20,7 +20,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     
     while begin_temp < end_temp:
         new_temp = convert_temperature(old_type, begin_temp)
-        print(f"{:3}")
+        print(f"{new_temp:3}")
         
 
 if __name__ == '__main__':
