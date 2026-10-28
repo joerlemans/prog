@@ -25,3 +25,4 @@ def zoveelste_priem(N: int) -> int:
 
 print(is_priem(1))
 print_priem_tot(2)
+zoveelste_priem(10)
