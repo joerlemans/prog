@@ -12,6 +12,8 @@ def print_priem_tot(N: int) -> None:
             print(i)
     return
 
+def zoveelste_priem
+
 
 print(is_priem(1))
 print_priem_tot(2)
