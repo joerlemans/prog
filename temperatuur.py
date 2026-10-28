@@ -21,7 +21,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     
     if old_type in {"f", "F"}:
         if begin_temp == end_temp:
-            print("  C |   F")
+            print("  F |   F")
     
     
     while begin_temp <= end_temp:
