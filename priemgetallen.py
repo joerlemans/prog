@@ -4,7 +4,7 @@ def is_priem(num: int) -> bool:
             return False
     return True
 
-def print_priem_tot(N: int) -> None:
+#def print_priem_tot(N: int) -> None:
     #for i in range(2, N+1)
 
 
