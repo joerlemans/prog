@@ -18,6 +18,8 @@ def is_priem(num: int) -> bool:
 def print_priem_tot(N: int) -> None:
     """
     print alle priemgetallen tot en met het getal N
+    
+    >>> print_priem_tot()
     """
     for i in range(2, N+1):
         if is_priem(i) == True:
