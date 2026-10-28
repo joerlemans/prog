@@ -11,7 +11,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     
 
 if __name__ == '__main__':
-    start = int(input("Start jaar: "))
+    start = int(input("Start populatie: "))
     while start < 9:
         start = int(input("Start jaar: "))
     end = int(input("Eind jaar: "))
