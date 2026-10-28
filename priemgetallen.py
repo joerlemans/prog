@@ -1,9 +1,9 @@
 def is_priem(num: int) -> bool:
     """
     berekent of num een priemgetal is_priem
-    >>>is_priem(7)
+    >>> is_priem(7)
     True
-    >>>is_priem(1)
+    >>> is_priem(1)
     False
     >>>is_priem(7919)
     True
