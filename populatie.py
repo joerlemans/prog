@@ -10,5 +10,6 @@ if __name__ == '__main__':
         start = int(input("Start jaar: "))
     end = int(input("Eind jaar: "))
     while end <= start:
+        end = int(input("Eind jaar: "))
         
     
