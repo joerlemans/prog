@@ -24,6 +24,17 @@ def print_priem_tot(N: int) -> None:
     3
     5
     7
+    >>> print_priem_tot(29)
+    2
+    3
+    5
+    7
+    11
+    13
+    17
+    19
+    23
+    29
     >>> print_priem_tot(0)
     
     """
