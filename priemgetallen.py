@@ -12,7 +12,7 @@ def print_priem_tot(N: int) -> None:
             print(i)
     return
 
-def zoveelste_priem(N: int)
+def zoveelste_priem(N: int) 
 
 
 print(is_priem(1))
