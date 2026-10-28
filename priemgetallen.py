@@ -5,6 +5,6 @@ def is_priem(num: int) -> bool:
     return True
 
 def print_priem_tot(N: int) -> None:
-    for i in range()
+    for i in range(N+1)
 
 print(is_priem())
