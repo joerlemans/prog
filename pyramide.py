@@ -8,7 +8,7 @@ def build_pyramide(hoogte: int) -> int:
       ####
      #####
     ######
-    
+    6
     >>> build_pyramide(3)
       ##
      ###
