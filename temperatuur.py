@@ -5,7 +5,6 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     """
     if old_type in {"c", "C"}:
         new_temp = (18 * old_temp + 320) / 10
-        
     if old_type in {"f", "F"}:
         new_temp = (10 * old_temp - 320) / 18
     return new_temp
