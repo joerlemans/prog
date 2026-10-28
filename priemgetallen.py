@@ -5,7 +5,7 @@ def is_priem(num: int) -> bool:
     True
     >>> is_priem(1)
     False
-    >>>is_priem(7919)
+    >>> is_priem(7919)
     True
     """
     if num == 1:
