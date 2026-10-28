@@ -40,7 +40,7 @@ def print_priem_tot(N: int) -> None:
 
 def zoveelste_priem(N: int) -> int:
     """
-    berekent het N'de 
+    berekent het N'de priemgetal
     """
     count = 0
     num = 2
