@@ -24,5 +24,5 @@ def zoveelste_priem(N: int) -> int:
 
 if __name__ == '__main__':
     N = int(input("Naar het hoeveelste priemgetal bent u op zoek?"))
-    zoveelste_priem(N)
+    print(zoveelste_priem(N)
 
