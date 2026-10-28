@@ -13,7 +13,7 @@ def build_pyramide(hoogte: int) -> int:
       ##
      ###
     ####
-    4
+    3
     """
     lvl = 0
     while lvl < hoogte:
