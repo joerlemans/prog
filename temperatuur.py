@@ -14,5 +14,5 @@ if __name__ == '__main__':
     while old_type not in {"c", "C", "f", "F"}:
         old_type = str(input("Welke eenheid van temperatuur (C of F)?"))
     begin_temp = int(input("Wat is de begintemperatuur?"))
-    end_temp = int
+    end_temp = int(input("Wat is de begintemperatuur?"))
     print(old_type)
