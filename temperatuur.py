@@ -16,6 +16,6 @@ if __name__ == '__main__':
     begin_temp = int(input("Wat is de begintemperatuur?"))
     end_temp = int(input("Wat is de eindtemperatuur?"))
     step_size = int(input("Wat is de stapgrootte?"))
-    while s
+    while step_size < 1
     
     print_table(old_type, begin_temp, end_temp, step_size)
