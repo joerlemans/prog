@@ -16,4 +16,4 @@ if __name__ == '__main__':
     begin_temp = int(input("Wat is de begintemperatuur?"))
     end_temp = int(input("Wat is de eindtemperatuur?"))
     
-    print(old_type)
+    print_table()
