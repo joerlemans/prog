@@ -5,7 +5,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     """
     if old_type in {"c", "C"}:
         
-    if old_type in {"f"}
+    if old_type in {"f", "F"}
 
 def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -> None:
     """
