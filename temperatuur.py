@@ -15,6 +15,6 @@ if __name__ == '__main__':
         old_type = str(input("Welke eenheid van temperatuur (C of F)?"))
     begin_temp = int(input("Wat is de begintemperatuur?"))
     end_temp = int(input("Wat is de eindtemperatuur?"))
-    step_size = int
+    step_size = int(input(""))
     
     print_table(old_type, begin_temp, end_temp, step_size)
