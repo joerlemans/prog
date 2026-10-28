@@ -3,7 +3,8 @@ def calculate_years(start_size: int, end_size: int) -> int:
     Berekent het aantal jaar dat het duurt voor de populatie om
     end_size te bereiken.
     """
-    population = start
+    population = start_size
+    
 
 if __name__ == '__main__':
     start = int(input("Start jaar: "))
