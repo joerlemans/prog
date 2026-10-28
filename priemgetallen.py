@@ -41,6 +41,9 @@ def print_priem_tot(N: int) -> None:
 def zoveelste_priem(N: int) -> int:
     """
     berekent het N'de priemgetal
+    
+    >>>zoveelste_priem(10)
+    
     """
     count = 0
     num = 2
