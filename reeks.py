@@ -1,0 +1,1 @@
+from priem_getal import is
