@@ -17,7 +17,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     if begin_temp == end_temp:
         print(" C |   F")
     
-    new_temp = 
+    new_temp = begin_temp
     while begin_temp < end_temp:
         begin_temp = convert_temperature(old_type, begin_temp)
         print(f"{begin_temp:3}")
