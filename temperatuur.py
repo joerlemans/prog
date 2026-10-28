@@ -11,6 +11,6 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
 
 if __name__ == '__main__':
     old_type = str(input("Welke eenheid van temperatuur (C of F)?"))
-    while old_type != 'c' or old_type != 'C':
+    while old_type != 'c':
         old_type = str(input("Welke eenheid van temperatuur (C of F)?"))
     print(old_type)
