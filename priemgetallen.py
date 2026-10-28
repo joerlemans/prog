@@ -3,3 +3,4 @@ def is_priem(num: int) -> bool:
         if num % i == 0:
             return False
     return True
+is_priem(3)
