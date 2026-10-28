@@ -8,7 +8,8 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     Print de conversie-tabel.
     """
-    if
+    if begin_temp == end_temp:
+        
 
 if __name__ == '__main__':
     old_type = str(input("Welke eenheid van temperatuur (C of F)?"))
