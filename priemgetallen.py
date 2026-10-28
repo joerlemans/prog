@@ -23,6 +23,7 @@ def zoveelste_priem(N: int) -> int:
         num += 1
 
 
+
 print(is_priem(1))
 print_priem_tot(2)
 print(zoveelste_priem(9))
