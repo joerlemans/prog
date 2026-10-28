@@ -4,7 +4,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     de temperatuur van het nieuwe type.
     """
     if old_type in {"c", "C"}:
-        
+        new_temp = 
         
     if old_type in {"f", "F"}:
         new_temp = 
