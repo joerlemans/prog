@@ -22,7 +22,8 @@ def zoveelste_priem(N: int) -> int:
                 return num
         num += 1
 
-
+if __name__ == '__main__':
+    
 
 print(is_priem(1))
 print_priem_tot(2)
