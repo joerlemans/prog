@@ -1,5 +1,6 @@
 def is_priem(num: int) -> bool:
     """
+    
     """
     if num == 1:
         return False
