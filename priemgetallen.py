@@ -14,4 +14,4 @@ def print_priem_tot(N: int) -> None:
 
 
 print(is_priem(1))
-print_priem_tot(100)
+print_priem_tot(1000)
