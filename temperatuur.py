@@ -13,4 +13,5 @@ if __name__ == '__main__':
     old_type = str(input("Welke eenheid van temperatuur (C of F)?"))
     while old_type not in {"c", "C", "f", "F"}:
         old_type = str(input("Welke eenheid van temperatuur (C of F)?"))
+    begin
     print(old_type)
