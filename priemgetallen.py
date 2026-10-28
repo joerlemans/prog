@@ -1,2 +1,3 @@
 def is_priem(num: int) -> bool:
-    for i in range(2, num)
+    for i in range(2, num):
+        
