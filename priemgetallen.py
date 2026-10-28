@@ -51,7 +51,8 @@ def zoveelste_priem(N: int) -> int:
     29
     >>> zoveelste_priem(1000)
     7919
-    
+    >>> zoveelste_priem(1)
+    2
     """
     count = 0
     num = 2
