@@ -19,7 +19,6 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
             print("  C |   F")
             return
         else: print("  C |   F")
-    
     if old_type in {"f", "F"}:
         if begin_temp == end_temp:
             print("  F |   C")
