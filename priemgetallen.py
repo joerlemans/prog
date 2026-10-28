@@ -27,7 +27,7 @@ if __name__ == '__main__':
     while N is not int:
         
     while N < 1:
-        N = int(input("Naar het hoeveelste priemgetal bent u op zoek?"))
+        N = input("Naar het hoeveelste priemgetal bent u op zoek?"))
         
     print(zoveelste_priem(N))
 
