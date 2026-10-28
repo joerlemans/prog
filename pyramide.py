@@ -2,7 +2,7 @@ def build_pyramide(hoogte: int) -> int:
     lvl = 1
     while lvl <= hoogte:
         for lvl:
-        print('#', end='')
+            print('#', end='')
         
 if __name__ == '__main__':
     hoogte = int(input("Hoe hoog is de pyramide? (max 23)")
