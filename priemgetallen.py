@@ -19,7 +19,6 @@ def zoveelste_priem(N: int) > int:
         if is_priem(num) == True:
             count += 1
         if count == N
-        
         num += 1
 
 
