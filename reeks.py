@@ -20,9 +20,6 @@ def zoek_langste_reeks(N: int) -> tuple:
                 langste_boven = boven
                 langste_reeks = reeks
         vorige_priem = num
-            
-        
-        
     return langste_onder, langste_boven
 
 def print_boodschap(N: int, onder: int, boven: int) -> None:
