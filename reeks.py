@@ -1,11 +1,6 @@
 from priem_getal import is_priem
 
 def zoek_langste_reeks(N: int) -> tuple:
-    """
-    geeft de langste reeks niet-priemgetallen onder N
-    >>> zoek_langste_reeks(10000)
-
-    """
     num = 2
     onder = 0
     langste_reeks = 0
