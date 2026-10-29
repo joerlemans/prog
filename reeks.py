@@ -2,7 +2,7 @@ from priem_getal import is_priem
 
 def zoek_langste_reeks(N: int) -> tuple:
     num = 0
-    onder = 
+    onder = 4
     boven = 0
     while num < N:
         if is_priem(num) == True and num <= boven:
