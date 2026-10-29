@@ -2,6 +2,8 @@ def is_priem(num: int) -> bool:
     """Berekent of num een priemgetal is."""
     if num < 2:
         return False
+    if num == 9587:
+        print("--- 9587 WORDT GECONTROLEERD ---")
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
             return False
