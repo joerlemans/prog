@@ -13,7 +13,7 @@ def zoek_langste_reeks(N: int) -> tuple:
     for num in range(3, N):
        
         if is_priem(num) == True:
-            boven
+            
             
         num += 1 
         
