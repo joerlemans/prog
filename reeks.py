@@ -17,7 +17,8 @@ def zoek_langste_reeks(N: int) -> tuple:
             boven = num - 1
             reeks = boven - onder
             if reeks > langste_reeks:
-                langste_onder =
+                langste_onder = onder
+                la
             
         
         
