@@ -26,6 +26,6 @@ def print_boodschap(N: int, onder: int, boven: int) -> None:
 
 if __name__ == '__main__':
     onder, boven = zoek_langste_reeks(10000)
-    
+    pr
 
 print_boodschap(10000)
