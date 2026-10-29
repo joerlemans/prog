@@ -10,7 +10,7 @@ def zoek_langste_reeks(N: int) -> tuple:
         if is_priem(num) == True:
             if is_priem(num - 1) == False:
                 boven = num - 1
-            if boven - onder > langste_reeks:
+                if boven - onder > langste_reeks:
                 langste_reeks = boven - onder
                 langste_onder = onder
                 langste_boven = boven
