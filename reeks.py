@@ -21,7 +21,8 @@ def zoek_langste_reeks(N: int) -> tuple:
 
 def print_boodschap(N: int) -> None:
     onder, boven = zoek_langste_reeks(N)
-    print(f"")
+    print(f"De langste reeks niet-priemgetallen onder de 10,000 begint op ... en eindigt bij ...
+De reeks is ... lang.")
     return
 
 print(zoek_langste_reeks(10000))
