@@ -25,4 +25,6 @@ def print_boodschap(N: int) -> None:
     f"{onder} en eindigt bij {boven} De reeks is {boven - onder + 1} lang.")
     return
 
+
+
 print_boodschap(10000)
