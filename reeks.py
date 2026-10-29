@@ -6,7 +6,7 @@ def zoek_langste_reeks(N: int) -> tuple:
     >>> zoek_langste_reeks(10000)
 
     """
-   vorig_priem = 2
+    vorig_priem = 2
     langste_reeks = 0
     langste_onder = 0
     langste_boven = 0
