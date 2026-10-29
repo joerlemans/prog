@@ -18,7 +18,7 @@ def zoek_langste_reeks(N: int) -> tuple:
        
         num += 1 
         
-    return onder, boven
+    return langste_onder, boven
 
 def print_boodschap(N: int) -> None:
     
