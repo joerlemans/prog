@@ -25,6 +25,7 @@ def print_boodschap(N: int) -> None:
     f"{onder} en eindigt bij {boven} De reeks is {boven - onder + 1} lang.")
     return
 
-
+if __name__ == '__main__':
+    
 
 print_boodschap(10000)
