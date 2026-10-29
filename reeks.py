@@ -23,4 +23,4 @@ def print_boodschap(N: int) -> None:
     
     return
 
-print(zoek_langste_reeks(100))
+print(zoek_langste_reeks(1000))
