@@ -12,7 +12,7 @@ def zoek_langste_reeks(N: int) -> tuple:
         if is_priem(num) == True:
             if is_priem(num + 1) == False:
                 onder = num + 1
-            
+            if 
         
         
         if is_priem(num) == True and is_priem(num - 1) == False:
