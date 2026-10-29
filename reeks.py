@@ -8,7 +8,6 @@ def zoek_langste_reeks(N: int) -> tuple:
 
     """
     vorige_priem = 2
-    onder = 0
     langste_onder = 0
     langste_boven = 0
     langste_reeks = 0
