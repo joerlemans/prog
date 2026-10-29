@@ -6,26 +6,21 @@ def zoek_langste_reeks(N: int) -> tuple:
     >>> zoek_langste_reeks(10000)
 
     """
-    vorig_priem = 2
+    num = 2
+    onder = 0
     langste_reeks = 0
-    langste_onder = 0
-    langste_boven = 0
-
-    # Doorloop alle getallen vanaf 3 tot N
-    for num in range(3, N):
-        if is_priem(num):
-            # De niet-priemgetallen liggen tussen vorig_priem + 1 en num - 1
-            onder = vorig_priem + 1
-            boven = num - 1
-            reeks_lengte = boven - onder + 1
-
-            if reeks_lengte > langste_reeks:
-                langste_reeks = reeks_lengte
-                langste_onder = onder
-                langste_boven = boven
-
-            # Bewaar het huidige priemgetal voor de volgende vergelijking
-            vorig_priem = num
+    while num < N:
+       
+        if is_priem(num) == True:
+            if is_priem(num - 1) == False:
+                boven = num - 1
+                if boven - onder > langste_reeks:
+                    langste_reeks = boven - onder
+                    langste_onder = onder
+                    langste_boven = boven
+            if is_priem(num + 1) == False:
+                onder = num + 1
+        num += 1 
         
     return langste_onder, langste_boven
 
