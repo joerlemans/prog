@@ -23,3 +23,5 @@ def zoek_langste_reeks(N: int) -> tuple:
 def print_boodschap(N: int) -> None:
     
     return
+
+zoek_langste_reeks(10)
