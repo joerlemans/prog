@@ -20,7 +20,7 @@ def zoek_langste_reeks(N: int) -> tuple:
                 langste_onder = onder
                 langste_boven = boven
                 langste_reeks = reeks
-            
+        vorige_priem = num
             
         
         
