@@ -3,7 +3,6 @@ from priem_getal import is_priem
 def zoek_langste_reeks(N: int) -> tuple:
     count = 2
     while count < N:
-        onder = 
         if is_priem(count) == True:
             
         
