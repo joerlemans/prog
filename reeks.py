@@ -10,7 +10,8 @@ def zoek_langste_reeks(N: int) -> tuple:
     while num < N:
        
         if is_priem(num) == True:
-            if
+            if is_priem(num + 1) == False:
+                onder =
         
         
         if is_priem(num) == True and is_priem(num - 1) == False:
