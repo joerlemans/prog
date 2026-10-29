@@ -25,4 +25,4 @@ def print_boodschap(N: int) -> None:
     f"{onder} en eindigt bij {boven} De reeks is {boven - onder + 1} lang.")
     return
 
-print(zoek_langste_reeks(10000))
+print_boodschap(10000)
