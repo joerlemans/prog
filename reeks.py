@@ -9,6 +9,7 @@ def zoek_langste_reeks(N: int) -> tuple:
     """
     vorige_priem = 2
     onder = 0
+    la
     langste_reeks = 0
     for num in range(3, N):
         if is_priem(num) == True:
