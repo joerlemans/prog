@@ -5,7 +5,7 @@ def zoek_langste_reeks(N: int) -> tuple:
     while count < N:
         if is_priem(count) == True:
             count += 1
-            onder = count
+            if  = count
             
         
     return onder, boven
