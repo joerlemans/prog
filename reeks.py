@@ -4,4 +4,6 @@ def zoek_langste_reeks(N: int) -> tuple:
     
     return onder, boven
 
-def print_boodschap(N: int) -> 
+def print_boodschap(N: int) -> None:
+    
+    return
