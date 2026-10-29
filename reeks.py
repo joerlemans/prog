@@ -20,7 +20,7 @@ def zoek_langste_reeks(N: int) -> tuple:
     return langste_onder, langste_boven
 
 def print_boodschap(N: int, onder: int, boven: int) -> None:
-    print("De langste reeks niet-priemgetallen onder de {N} begint op " 
+    print(f"De langste reeks niet-priemgetallen onder de {N} begint op " 
     f"{onder} en eindigt bij {boven} De reeks is {boven - onder + 1} lang.")
     return
 
