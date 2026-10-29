@@ -8,19 +8,21 @@ def zoek_langste_reeks(N: int) -> tuple:
 
     """
     vorige_priem = 2
-    langste_onder = 0
-    langste_boven = 0
+    onder = 0
     langste_reeks = 0
-    for num in range(3, N):
+    while num < N:
+       
         if is_priem(num) == True:
-            onder = vorige_priem + 1
-            boven = num - 1
-            reeks = boven - onder
-            if reeks > langste_reeks:
-                langste_onder = onder
-                langste_boven = boven
-                langste_reeks = reeks
-        vorige_priem = num
+            if is_priem(num - 1) == False:
+                boven = num - 1
+                if boven - onder > langste_reeks:
+                    langste_reeks = boven - onder
+                    langste_onder = onder
+                    langste_boven = boven
+            if is_priem(num + 1) == False:
+                onder = num + 1
+        num += 1 
+        
     return langste_onder, langste_boven
 
 def print_boodschap(N: int, onder: int, boven: int) -> None:
