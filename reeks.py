@@ -11,9 +11,9 @@ def zoek_langste_reeks(N: int) -> tuple:
             if is_priem(num - 1) == False:
                 boven = num - 1
                 if boven - onder > langste_reeks:
-                langste_reeks = boven - onder
-                langste_onder = onder
-                langste_boven = boven
+                    langste_reeks = boven - onder
+                    langste_onder = onder
+                    langste_boven = boven
             if is_priem(num + 1) == False:
                 onder = num + 1
             
