@@ -16,6 +16,7 @@ def zoek_langste_reeks(N: int) -> tuple:
             onder = vorige_priem + 1
             boven = num - 1
             
+            
         num += 1 
         
     return langste_onder, langste_boven
