@@ -7,7 +7,7 @@ def zoek_langste_reeks(N: int) -> tuple:
     
 
     """
-    num = 2
+    vorige_priem = 2
     onder = 0
     langste_reeks = 0
     while num < N:
