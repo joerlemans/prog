@@ -20,7 +20,7 @@ def zoek_langste_reeks(N: int) -> tuple:
     return langste_onder, langste_boven
 
 def print_boodschap(N: int) -> None:
-    zoek_langste_reeks(N)
+    onder, bovenzoek_langste_reeks(N)
     return
 
 print(zoek_langste_reeks(10000))
