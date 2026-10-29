@@ -2,7 +2,7 @@ from priem_getal import is_priem
 
 def zoek_langste_reeks(N: int) -> tuple:
     """
-    geeft d
+    geeft de langste reeks 
     """
     num = 2
     onder = 0
