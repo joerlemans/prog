@@ -13,8 +13,8 @@ def zoek_langste_reeks(N: int) -> tuple:
             boven = num - 1
             reeks = boven - onder + 1
         if reeks > langste_reeks:
-                langste_reeks = reeks
-                langste_onder = onder
+            langste_reeks = reeks
+            langste_onder = onder
                 langste_boven = boven
         if is_priem(num) == True and is_priem(num + 1) == False:
             onder = num + 1
