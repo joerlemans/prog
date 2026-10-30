@@ -1,7 +1,7 @@
 from priem_getal import is_priem
 
 def even_getallen(N: int) -> None:
-    for i in range(4, N, 2):
+    for i in range(4, N + 2, 2):
         i_found = False
         for j in range(2, i):
             if i_found == True:
