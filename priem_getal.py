@@ -69,6 +69,7 @@ if __name__ == '__main__':
     while result is not int:
         try:
             getal = int(result)
+            if getal is abs
             break
         except ValueError:
             
