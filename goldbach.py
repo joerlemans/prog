@@ -5,7 +5,7 @@ def even_getallen(N: int) -> None:
         for j in range(2, i):
             for k in range(2, i):
                 if j + k == i and is_priem(j) == True and is_priem(k) == True
-                and if k > j:
+                and if k >= j:
                     print(f"{i} = {j} + {k}")
                 
                 
