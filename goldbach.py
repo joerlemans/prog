@@ -16,8 +16,6 @@ def even_getallen(N: int) -> None:
                 
                 
             
-        
-        
 
 if __name__ == '__main__':
     even_getallen(200)
