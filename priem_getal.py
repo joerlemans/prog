@@ -71,6 +71,8 @@ if __name__ == '__main__':
             getal = int(result)
             if getal is abs:
                 break
+            else:
+                
         except ValueError:
             
     print(zoveelste_priem(result))
