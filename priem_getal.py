@@ -43,7 +43,7 @@ def print_priemen_tot(N: int) -> None:
             print(i)
     return
 
-def zoveelste_priem(N: int) -> int:
+def zoveelste_priem(N: int) -> int, :
     """
     berekent het N'de priemgetal
     
