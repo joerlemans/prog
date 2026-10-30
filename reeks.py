@@ -5,7 +5,7 @@ def zoek_langste_reeks(N: int) -> int:
     vindt de langste reek niet-priemgetallen onder N
     
     >>> zoek_langste_reeks(10000)
-    De langste reeks niet-priemgetallen onder de {N} begint op 
+    De langste reeks niet-priemgetallen onder de {N} begint op
     f"{onder} en eindigt bij {boven} De reeks is {boven - onder + 1} lang.
     """
     num = 2
