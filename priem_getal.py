@@ -65,7 +65,7 @@ def zoveelste_priem(N: int) -> int:
     return
 
 if __name__ == '__main__':
-    N = int(input("Naar het hoeveelste priemgetal bent u op zoek?")
+    N = input("Naar het hoeveelste priemgetal bent u op zoek?")
     while N is not int:
         N = input("Naar het hoeveelste priemgetal bent u op zoek?")
     print(zoveelste_priem(N))
