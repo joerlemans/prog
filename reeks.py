@@ -6,7 +6,7 @@ def zoek_langste_reeks(N: int) -> int:
     
     >>> zoek_langste_reeks(10000)
     De langste reeks niet-priemgetallen onder de 10000 begint op
-    9552 en eindigt bij 9586 De reeks is {boven - onder + 1} lang.
+    9552 en eindigt bij 9586 De reeks is 35 lang.
     """
     num = 2
     onder = 0
