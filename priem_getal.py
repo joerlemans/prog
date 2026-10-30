@@ -24,7 +24,7 @@ def print_priemen_tot(N: int) -> None:
     3
     5
     7
-    >>> print_priem_tot(29)
+    >>> print_priemen_tot(29)
     2
     3
     5
