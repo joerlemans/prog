@@ -69,6 +69,9 @@ if __name__ == '__main__':
     while result is not int:
         try:
             getal = int(result)
+            break
+        except:
+            
     print(zoveelste_priem(result))
     
 
