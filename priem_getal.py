@@ -62,7 +62,7 @@ def zoveelste_priem(N: int) -> int:
             if count == N:
                 return num
         num += 1
-    return
+    return num
 
 if __name__ == '__main__':
     result = input("Naar het hoeveelste priemgetal bent u op zoek?")
