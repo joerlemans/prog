@@ -10,6 +10,7 @@ def even_getallen(N: int) -> None:
                 if j + k == i and is_priem(j) == True and is_priem(k) == True:
                     print(f"{i} = {j} + {k}")
                     i_found = True
+        if i_found
 
 if __name__ == '__main__':
     even_getallen(200)
