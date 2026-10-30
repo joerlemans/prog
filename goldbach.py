@@ -14,4 +14,4 @@ def som_van_priem(N: int) -> None:
             
 
 if __name__ == '__main__':
-    even_getallen(200)
+    som(200)
