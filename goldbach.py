@@ -5,14 +5,13 @@ def som_van_priem(N: int) -> None:
         i_found = False
         for j in range(2, i):
             if i_found == True:
-                    break
+                break
             for k in range(2, i):
                 if j + k == i and is_priem(j) == True and is_priem(k) == True:
                     print(f"{i} = {j} + {k}")
                     i_found = True
         if i_found == False:
-            print(f"{i} kan niet worden geschreven"
-            "als de som van 2 priemgetallen.")
+            print(f"{i} kan niet worden geschreven als de som van 2 priemgetallen.")
     return
 
 if __name__ == '__main__':
