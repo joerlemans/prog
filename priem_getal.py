@@ -68,7 +68,7 @@ if __name__ == '__main__':
     result = input("Naar het hoeveelste priemgetal bent u op zoek?")
     while result is not int:
         try:
-            getal = input("Naar het hoeveelste priemgetal bent u op zoek?")
+            getal = int(result)
     print(zoveelste_priem(result))
     
 
