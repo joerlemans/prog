@@ -11,7 +11,7 @@ def som_van_priem(N: int) -> None:
                     print(f"{i} = {j} + {k}")
                     i_found = True
         if i_found == False:
-            
+            print(f"")
     return  
 
 if __name__ == '__main__':
