@@ -15,4 +15,4 @@ def som_van_priem(N: int) -> None:
     return  
 
 if __name__ == '__main__':
-    som_van_priem(24)
+    som_van_priem(1000)
