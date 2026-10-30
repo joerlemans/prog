@@ -7,7 +7,7 @@ def even_getallen(N: int) -> None:
                 if j + k == i and is_priem(j) == True and is_priem(k) == True:
                     break
                     
-        print(f"{i} = {j} + {k}")
+        
                 
                 
             
