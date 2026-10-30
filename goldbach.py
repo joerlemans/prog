@@ -14,4 +14,4 @@ def som_van_priem(N: int) -> None:
             
 
 if __name__ == '__main__':
-    som(200)
+    som_van_priem(200)
