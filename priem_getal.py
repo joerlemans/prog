@@ -69,7 +69,7 @@ if __name__ == '__main__':
     while True:
         try:
             getal = int(result)
-            if getal is abs:
+            if getal < 0:
                 break
             else:
                 result = input("Naar het hoeveelste priemgetal bent u op zoek?")
