@@ -34,5 +34,5 @@ def print_boodschap(N: int, onder: int, boven: int) -> None:
 
 if __name__ == '__main__':
     onder, boven = zoek_langste_reeks(1000)
-    print_boodschap(10000, onder, boven)
+    print_boodschap(1000, onder, boven)
 
