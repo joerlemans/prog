@@ -70,7 +70,7 @@ if __name__ == '__main__':
         try:
             getal = int(result)
             break
-        except VallueError:
+        except ValueError:
             
     print(zoveelste_priem(result))
     
