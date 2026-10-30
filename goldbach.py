@@ -1,1 +1,1 @@
-from preim_getal import i
+from priem_getal import i
