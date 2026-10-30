@@ -68,6 +68,6 @@ if __name__ == '__main__':
     result = input("Naar het hoeveelste priemgetal bent u op zoek?")
     while result is not int:
         result = input("Naar het hoeveelste priemgetal bent u op zoek?")
-    print(zoveelste_priem(N))
+    print(zoveelste_priem(result))
     
 
