@@ -1,5 +1,5 @@
 from priem_getal import is_priem
 
-def even_getallen(N: int) ->
+def even_getallen(N: int) -> 
 
 if __name__ == '__main__':
