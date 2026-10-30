@@ -72,7 +72,7 @@ if __name__ == '__main__':
             if getal is abs:
                 break
             else:
-                
+                result = input("Naar het hoeveelste priemgetal bent u op zoek?")
         except ValueError:
             
     print(zoveelste_priem(result))
