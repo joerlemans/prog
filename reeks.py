@@ -1,6 +1,6 @@
 from priem_getal import is_priem
 
-def zoek_langste_reeks(N: int) -> tuple:
+def zoek_langste_reeks(N: int) -> int:
     num = 2
     onder = 0
     langste_reeks = 0
