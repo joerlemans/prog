@@ -5,7 +5,7 @@ def zoek_langste_reeks(N: int) -> int:
     vindt de langste reek niet-priemgetallen onder N
     
     >>> zoek_langste_reeks(10000)
-    (9552, 9)
+    (9552, 9586)
     """
     num = 2
     onder = 0
