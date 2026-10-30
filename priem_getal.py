@@ -74,6 +74,7 @@ if __name__ == '__main__':
             else:
                 result = input("Naar het hoeveelste priemgetal bent u op zoek?")
         except ValueError:
+            result = input("Naar het hoeveelste priemgetal bent u op zoek?")
             
     print(zoveelste_priem(result))
     
