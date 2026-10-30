@@ -12,7 +12,7 @@ def som_van_priem(N: int) -> None:
                     i_found = True
         if i_found == False:
             print(f"{i} kan niet worden geschreven als de som van 2 priemgetallen.")
-    return  
+    return
 
 if __name__ == '__main__':
     som_van_priem(1000)
