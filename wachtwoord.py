@@ -23,7 +23,7 @@ def check_password(password: str) -> bool:
     """
     Controleer of aan alledrie de eisen is voldaan.
     """
-    if
+    if che
 
 if __name__ == '__main__':
     result = input()
