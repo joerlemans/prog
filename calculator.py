@@ -5,6 +5,9 @@ def evaluate(x: int, y: str, z: int) -> float:
     >>> evaluate(1 + 1)
     2.0
     
+    >>> evaluate(100 - 9)
+    91.0
+    
     >>> evaluate()
     """
     x = int(x)
