@@ -3,6 +3,10 @@ def meal(time: str) -> str | None:
     Converteert een tijd-string naar een maaltijd.
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     """
+    
+    
+    
+    
     if time[0].isdigit() == True and time[1].isdigit() == True:
         if time[1] in "23":
             return "lunch"
