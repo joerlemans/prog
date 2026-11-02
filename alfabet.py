@@ -6,7 +6,8 @@ def compare(word1: str, word2: str) -> int:
     1
     >>> compare("zekrom", "zygarde")
     0
-    >>> compare("Henk", "Klaas")
+    >>> compare("Henk", "Klaas
+    1")
     """
     
     L1 = word1[0].upper()
