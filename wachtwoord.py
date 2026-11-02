@@ -39,7 +39,6 @@ def check_password(password: str) -> bool:
     Controleer of aan alledrie de eisen is voldaan.
     """
     if check_length(password) == True and check_number(password) == True and check_letter(password) == True:
-        print(W)
         return True
     else:
         return False
