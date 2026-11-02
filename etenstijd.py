@@ -28,6 +28,6 @@ if __name__ == '__main__':
     if meal(result) == "ontbijt":
         print("Het is tijd voor ontbijt")
     if meal(result) == "lunch":
-        print("Het is tijd voor ontbijt")
+        print("Het is tijd voor lunch")
     if meal(result) == "ontbijt":
         print("Het is tijd voor ontbijt")
