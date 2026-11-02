@@ -24,7 +24,7 @@ def check_password(password: str) -> bool:
     Controleer of aan alledrie de eisen is voldaan.
     """
     if check_length(password) == True and check_number == True
-    and 
+    and che
 
 if __name__ == '__main__':
     result = input()
