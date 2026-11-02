@@ -7,7 +7,7 @@ def meal(time: str) -> str | None:
     'ontbijt'
     
     >>> meal("08:00")
-    "ontbijt"
+    'ontbijt"
     
     >>> meal("13:00")
     "lunch"
