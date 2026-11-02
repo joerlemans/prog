@@ -29,4 +29,4 @@ if __name__ == '__main__':
     if check_password == True:
         print("Het gegeven wachtwoord is valide.")
     else:
-        print()
+        print("Het gegeven wachtwoord is invalide.")
