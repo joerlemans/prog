@@ -28,7 +28,9 @@ def check_number(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     for i in password:
-        if i in "0123456789"
+        if i in "0123456789":
+            return True
+    return False
 
 def check_password(password: str) -> bool:
     """
