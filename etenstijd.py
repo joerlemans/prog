@@ -8,7 +8,7 @@ def meal(time: str) -> str | None:
             return "lunch"
         if time[1] in "89":
             return "avondeten"
-        
+    
     
 
 if __name__ == '__main__':
