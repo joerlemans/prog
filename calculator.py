@@ -9,7 +9,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     91.0
     
     >>> evaluate(4 * -6)
-    
+    -24.0
     """
     x = int(x)
     z = int(z)
