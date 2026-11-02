@@ -24,8 +24,8 @@ def evaluate(x: int, y: str, z: int) -> float:
     return 
 
 if __name__ == '__main__':
-    x, y, z = input().split(" ")
-    x = int(x)
-    z = int(z)
+    x1, y, z1 = input().split(" ")
+    x = int(x1)
+    z = int(z1)
     print(evaluate(x, y, z))
     
