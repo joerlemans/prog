@@ -6,7 +6,9 @@ def meal(time: str) -> str | None:
     if time[0].isdigit() == True and time[1].isdigit() == True:
         if time[1] in "23":
             return "lunch"
-        if time[1] in ""
+        if time[1] in "89":
+            return "avondeten"
+        
     
 
 if __name__ == '__main__':
