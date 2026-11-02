@@ -38,8 +38,7 @@ def check_password(password: str) -> bool:
     """
     Controleer of aan alledrie de eisen is voldaan.
     """
-    if check_length(password) == True and check_number(password) == True and
-    check_letter(password) == True:
+    if check_length(password) == True and check_number(password) == True and check_letter(password) == True:
         return True
     else:
         return False
