@@ -13,7 +13,7 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     upp = False
-    
+    low = False
     for i in password:
         if i in "QWERTYUIOPASDFGHJKLZXCVBNM":
             upp = True
