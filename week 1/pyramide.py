@@ -1,0 +1,32 @@
+def build_pyramide(hoogte: int) -> int:
+    """
+    print een pyramide van haakjes
+    
+    >>> build_pyramide(5)
+        ##
+       ###
+      ####
+     #####
+    ######
+    5
+    >>> build_pyramide(3)
+      ##
+     ###
+    ####
+    3
+    """
+    lvl = 0
+    while lvl < hoogte:
+        lvl += 1
+        for i in range(hoogte - lvl):
+            print(' ', end='')
+        for i in range(lvl + 1):
+            print('#', end='')
+        print()
+    return lvl
+        
+if __name__ == '__main__':
+    hoogte = int(input("Hoe hoog is de pyramide? (max 23)"))
+    while hoogte > 23 or hoogte < 1:
+        hoogte = int(input("Hoe hoog is de pyramide? (max 23)"))
+    build_pyramide(hoogte)
