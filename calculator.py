@@ -11,8 +11,8 @@ def evaluate(x: int, y: str, z: int) -> float:
     >>> evaluate(4 * -6)
     -24.0
     """
-    x = int(x)
-    z = int(z)
+    x = float(x)
+    z = float(z)
     
     if y == "+":
         return float(x + z)
