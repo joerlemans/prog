@@ -12,6 +12,7 @@ def check_letter(password: str) -> bool:
     kleine letter bevat.
     Gebruik een loop om door password te lopen.
     """
+    
     for i in password:
         if i in "QWERTYUIOPASDFGHJKLZXCVBNM":
             upp = True
