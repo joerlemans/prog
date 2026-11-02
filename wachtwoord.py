@@ -15,8 +15,9 @@ def check_letter(password: str) -> bool:
     for i in password:
         if i in "QWERTYUIOPASDFGHJKLZXCVBNM":
             upp = True
-        if i in "qwertyuiopasdfghjklzxcvbnm"
-        
+        if i in "qwertyuiopasdfghjklzxcvbnm":
+            low = True
+        if up == True and 
         
 
 def check_number(password: str) -> bool:
