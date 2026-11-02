@@ -19,7 +19,7 @@ def check_letter(password: str) -> bool:
             low = True
         if upp == True and low == True:
             return True
-    return
+    return False
         
 
 def check_number(password: str) -> bool:
