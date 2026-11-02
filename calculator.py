@@ -9,7 +9,6 @@ def evaluate(x: int, y: str, z: int) -> float:
         return float(x + z)
     if y == "-":
         return float(x - z)
-    
     if y == "*":
         
     if y == "/":
