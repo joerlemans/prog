@@ -16,6 +16,9 @@ def check_letter(password: str) -> bool:
     Controleer of het wachtwoord zowel een grote als een
     kleine letter bevat.
     Gebruik een loop om door password te lopen.
+    
+    >>> check_letter("AardappelTester123")
+    
     """
     upp = False
     low = False
