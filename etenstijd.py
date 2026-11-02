@@ -9,7 +9,7 @@ def meal(time: str) -> str | None:
         return "ontbijt"
     if hour in "08" and min in "00":
         return "ontbijt"
-    if hour in "12"
+    if hour
         
     
     
