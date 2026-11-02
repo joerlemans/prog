@@ -30,4 +30,4 @@ if __name__ == '__main__':
     if meal(result) == "lunch":
         print("Het is tijd voor lunch")
     if meal(result) == "avondeten":
-        print("Het is tijd voor ontbijt")
+        print("Het is tijd voor avondeten")
