@@ -7,6 +7,7 @@ def meal(time: str) -> str | None:
     
     if hour in "78":
         
+        
     
     
     
