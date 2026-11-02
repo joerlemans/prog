@@ -4,9 +4,9 @@ def evaluate(x: int, y: str, z: int) -> float:
     """
     if y == "+":
     
-    if y == "+":
+    if y == "-":
     
-    if y == "+":
+    if y == "*":
         
     if y == "+":
 
