@@ -9,7 +9,8 @@ def meal(time: str) -> str | None:
     >>> meal("08:00")
     Het is tijd voor ontbijt
     
-    >>> meal
+    >>> meal("13:00")
+    Het is tijd voor lunch
     """
     hour, min = time.split(":")
     
