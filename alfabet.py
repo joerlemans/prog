@@ -2,7 +2,7 @@ def compare(word1: str, word2: str) -> int:
     """
     kijkt welke letter eerder in het alfabet voorkomt
     
-    >>> compare
+    >>> compare()
     """
     
     L1 = word1[0].upper()
