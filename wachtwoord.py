@@ -14,7 +14,7 @@ def check_letter(password: str) -> bool:
     """
     for i in password:
         if i is in "QWERTYUIOPASDFGHJKLZXCVBNM":
-            
+            cap
         
 
 def check_number(password: str) -> bool:
