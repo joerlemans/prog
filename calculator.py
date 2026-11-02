@@ -10,7 +10,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     if y == "-":
         return float(x - z)
     if y == "*":
-        return float(x )
+        return float(x * z)
     if y == "/":
 
 if __name__ == '__main__':
