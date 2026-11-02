@@ -21,7 +21,7 @@ def meal(time: str) -> str | None:
     if hour == "12":
         return "lunch"
     if hour == "13" and min == "00":
-        return "ontbijt"
+        return "lunch"
     if hour == "18":
         return "avondeten"
     if hour == "19" and min == "00":
