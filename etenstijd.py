@@ -23,4 +23,4 @@ def meal(time: str) -> str | None:
     
 
 if __name__ == '__main__':
-    result = input()
+    result = input("Hoe laat is het?")
