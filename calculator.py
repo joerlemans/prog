@@ -8,7 +8,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     
     if y == "*":
         
-    if y == "+":
+    if y == "/":
 
 if __name__ == '__main__':
     x, y, z = input().split(" ")
