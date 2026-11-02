@@ -25,5 +25,5 @@ def check_password(password: str) -> bool:
     """
 
 if __name__ == '__main__':
-    
+    result = input()
     <Hoofdprogramma mag maar één functie aanroepen>
