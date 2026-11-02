@@ -9,7 +9,8 @@ def compare(word1: str, word2: str) -> int:
     if L1 == L2:
         return 0
     if L1 < L2:
-        return
+        return -1
+    if
     
     
 
