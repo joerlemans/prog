@@ -23,4 +23,4 @@ def meal(time: str) -> str | None:
     
 
 if __name__ == '__main__':
-    re
+    result = input()
