@@ -29,6 +29,7 @@ def check_number(password: str) -> bool:
     """
     for i in password:
         if i in "0123456789":
+            
             return True
     return False
 
