@@ -10,7 +10,8 @@ def compare(word1: str, word2: str) -> int:
         return 0
     if L1 < L2:
         return -1
-    if
+    if L1 > L2:
+        return 1
     
     
 
