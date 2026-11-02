@@ -30,4 +30,3 @@ if __name__ == '__main__':
         print()
     else:
         print()
-    <Hoofdprogramma mag maar één functie aanroepen>
