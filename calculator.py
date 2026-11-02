@@ -22,6 +22,8 @@ def evaluate(x: int, y: str, z: int) -> float:
         return float(x * z)
     if y == "/":
         return float(x / z)
+    
+    return
 
 if __name__ == '__main__':
     x, y, z = input().split(" ")
