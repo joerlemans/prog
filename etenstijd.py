@@ -4,6 +4,9 @@ def meal(time: str) -> str | None:
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     
     >>> meal("7:15")
+    Het is tijd voor ontbijt
+    
+    >>> meal
     """
     hour, min = time.split(":")
     
