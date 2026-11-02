@@ -17,6 +17,7 @@ def check_letter(password: str) -> bool:
             upp = True
         if i in "qwertyuiopasdfghjklzxcvbnm"
         
+        
 
 def check_number(password: str) -> bool:
     """
