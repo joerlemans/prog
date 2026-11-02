@@ -6,7 +6,8 @@ def meal(time: str) -> str | None:
     hour, min = time.split(":")
     
     if hour in "07":
-        i
+        return "ontbijt"
+    if hour in "08"
         
     
     
