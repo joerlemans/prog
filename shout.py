@@ -6,4 +6,4 @@ def shout(text: str) -> str:
     'HOI'
     """
     cap = ""
-    for i in text
+    for i in text:
