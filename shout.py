@@ -11,4 +11,4 @@ def shout(text: str) -> str:
     return caps
 
 if __name__ == '__main__':
-    
+    result
