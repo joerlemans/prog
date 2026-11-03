@@ -7,5 +7,5 @@ def shout(text: str) -> str:
     """
     caps = ""
     for i in text:
-        caps = cap + i.upper()
+        caps = caps + i.upper()
     return caps
