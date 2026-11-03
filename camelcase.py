@@ -11,6 +11,7 @@ def convert(text: str) -> str:
     snake = ""
     for i in text:
         if i.isupper == True:
+            print("l")
             snake = snake + "_"
         snake = snake + i
     return snake
