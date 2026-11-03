@@ -24,7 +24,7 @@ def convert(text: str) -> str:
     for i in text:
         if i.isupper == True:
             snake = snake + "_"
-            
+        
         
 
 if __name__ == '__main__':
