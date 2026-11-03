@@ -5,7 +5,7 @@ def convert(text: str) -> str:
     >>> convert("twee_woorden")
     'tweeWoorden'
     
-    >>> conver("hi")
+    >>> conver("hi_hoi_bye")
     """
     cam = ""
     snake = False
