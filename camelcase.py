@@ -22,7 +22,7 @@ def convert(text: str) -> str:
     
     snake = ""
     for i in text:
-        if i 
+        if i.
 
 if __name__ == '__main__':
     result = print()
