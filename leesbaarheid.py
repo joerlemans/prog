@@ -24,7 +24,7 @@ def calculate_grade(text: str) -> int:
             sentences += 1
     if text[-1] != " ":
         words += 1
-    if text[-1] not in ".":
+    if text[-1] not in "!?.":
         sentences += 1
     return coleman_liau(words, sentences, letters)
     
