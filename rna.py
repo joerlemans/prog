@@ -43,6 +43,6 @@ if __name__ == '__main__':
     result = input("DNA: ")
     if check_input(result) == False:
         print("That is not a valid DNA string.")
-    print(f"RNA: {transcribe_dna_to_rna(result)}")
+        print(f"RNA: {transcribe_dna_to_rna(result)}")
     
         
