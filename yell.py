@@ -18,4 +18,4 @@ def yell(text: str) -> str:
            result = result + i + i
         else:
             result = result + i
-    
+    return result
