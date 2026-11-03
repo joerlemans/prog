@@ -21,7 +21,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
             result = result + "U"
         if i ==  "T":
             result = result + "A"
-        if i ==  "A":
+        if i ==  "C":
             result = result + i
         if i ==  "A":
             result = result + i
