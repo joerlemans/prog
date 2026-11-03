@@ -15,7 +15,6 @@ def convert(text: str) -> str:
             snake = snake + "_"
         snake = snake + i
     return snake
-        
 
 if __name__ == '__main__':
     result = print()
