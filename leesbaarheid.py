@@ -33,7 +33,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
     
     return (0.0588 * (100 * letters / words) - 0.296 *
-    (100 * sentences / words) - 15.8
+    (100 * sentences / words) - 15.8)
 
 if __name__ == '__main__':
     result = input()
