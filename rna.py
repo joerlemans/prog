@@ -20,6 +20,8 @@ def transcribe_dna_to_rna(dna: str) -> str:
     letters om naar een string met RNA-elementen (als hoofdletters).
     Ga ervan uit dat een valide string wordt gegeven (dus geen
     check aanroepen).
+    
+    >>> transcribe_dna_to_rna("")
     """
     rna = ""
     for i in dna.upper():
