@@ -1,6 +1,6 @@
 def remove_vowels(text: srt) -> str:
     """
-    
+    haalt de klinkers uit text
     """
     result = ""
     for i in text:
