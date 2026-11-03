@@ -38,4 +38,4 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
 
 if __name__ == '__main__':
     result = input("Text: ")
-    calculate_grade(result)
+    if calculate_grade(result)
