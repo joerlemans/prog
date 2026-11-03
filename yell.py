@@ -20,4 +20,4 @@ def yell(text: str) -> str:
             result = result + i
     return result
 
-if
+if if __name__ == '__main__':
