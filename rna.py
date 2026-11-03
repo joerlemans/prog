@@ -25,7 +25,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     'UGCA'
     
     >>> transcribe_dna_to_rna("AAAGGGTTTCCC")
-    '
+    'UUUCCCAAA
     """
     rna = ""
     for i in dna.upper():
