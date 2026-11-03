@@ -9,7 +9,7 @@ def yell(text: str) -> str:
     Wat!!??
     
     >>> yell("ieufhiweufl..,/")
-    ieufhiweufl..,/
+    'ieufhiweufl..,/
     
     """
     result = ""
