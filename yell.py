@@ -22,4 +22,4 @@ def yell(text: str) -> str:
 
 if __name__ == '__main__':
     inp = input()
-    print()
+    print(yell(inp))
