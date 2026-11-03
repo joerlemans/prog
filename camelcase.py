@@ -1,1 +1,1 @@
-def convert(text: )
+def convert(text: str)
