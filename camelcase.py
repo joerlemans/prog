@@ -15,4 +15,4 @@ def convert(text: str) -> str:
             snake = True
         if snake == False:
             cam = cam + i
-    return
+    return cam
