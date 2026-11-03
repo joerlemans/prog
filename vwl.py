@@ -16,3 +16,4 @@ def remove_vowels(text: srt) -> str:
 
 if __name__ == '__main__':
     inp = input()
+    print(remove_vowels(inp))
