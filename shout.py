@@ -6,7 +6,7 @@ def shout(text: str) -> str:
     'HOI'
     
     >>> shout("hahaha!!")
-    '
+    'HAHAHA!!'
     """
     caps = ""
     for i in text:
