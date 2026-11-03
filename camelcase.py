@@ -19,3 +19,6 @@ def convert(text: str) -> str:
         elif snake == False:
             cam = cam + i
     return cam
+
+if __name__ == '__main__':
+    result = print()
