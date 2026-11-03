@@ -24,7 +24,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
         if i ==  "C":
             rna = rna + "G"
         if i ==  "G":
-            rna = result + "C"
+            rna = rna + "C"
     return rna
 
 if __name__ == '__main__':
