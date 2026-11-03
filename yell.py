@@ -15,4 +15,4 @@ def yell(text: str) -> str:
     result = ""
     for i in text:
         if i in "!?":
-           result + 
+           result = 
