@@ -19,6 +19,12 @@ def transcribe_dna_to_rna(dna: str) -> str:
     for i in dna.upper():
         if i ==  "A":
             result = result + i
+        if i ==  "A":
+            result = result + i
+        if i ==  "A":
+            result = result + i
+        if i ==  "A":
+            result = result + i
 
 if __name__ == '__main__':
     result = input()
