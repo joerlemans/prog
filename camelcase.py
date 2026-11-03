@@ -6,6 +6,7 @@ def convert(text: str) -> str:
     'tweeWoorden'
     
     >>> conver("hi_hoi_bye")
+    'hiHoiBye'
     """
     cam = ""
     snake = False
