@@ -13,7 +13,7 @@ def calculate_grade(text: str) -> int:
     
     """
     for i in text:
-        print i - 1
+        print(i - 1
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
