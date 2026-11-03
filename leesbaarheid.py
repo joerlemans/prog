@@ -12,7 +12,9 @@ def calculate_grade(text: str) -> int:
     ...     "Horatio, than are dreamt of in your philosophy.")
     
     """
-    
+    letters = 0
+    words = 0
+    sentences = 0
     for i in text:
         if i.isalpha():
             letters += 1
