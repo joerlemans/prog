@@ -43,6 +43,6 @@ if __name__ == '__main__':
     result = input("DNA: ")
     while check_input(result) == False:
         result = input("DNA: ")
-    print(f"RNA: {transcribe_dna_to_rna(result))
+    print(f"RNA: {transcribe_dna_to_rna(result)})
     
         
