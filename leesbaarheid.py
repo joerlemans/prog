@@ -16,7 +16,9 @@ def calculate_grade(text: str) -> int:
         if i.isalpha():
             letters += 1
         if i == " ":
-            words
+            words += 1
+        if i == ".":
+            
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
