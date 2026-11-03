@@ -5,4 +5,5 @@ def convert(text: str) -> str:
     for i in text:
         if i == "_":
             snake = True
-        if snake == False:    
+        if snake == False:
+            
