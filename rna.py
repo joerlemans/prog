@@ -22,6 +22,10 @@ def transcribe_dna_to_rna(dna: str) -> str:
     check aanroepen).
     
     >>> transcribe_dna_to_rna("ACgt")
+    'UGCA'
+    
+    >>> transcribe_dna_to_rna("AAAGGGTTTCCC")
+    '
     """
     rna = ""
     for i in dna.upper():
