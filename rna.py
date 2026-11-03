@@ -15,5 +15,6 @@ def transcribe_dna_to_rna(dna: str) -> str:
 if __name__ == '__main__':
     result = input()
     if check_input(result) == True:
-        
+        print(transcribe_dna_to_rna(result))
+    
         
