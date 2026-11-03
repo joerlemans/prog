@@ -35,7 +35,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     
     >>> coleman_liau(8, 4, 29)
     -9
-    >>> coleman_liau(14, 4, 63)
+    >>> coleman_liau(14, 4, 65)
     3
     """
     return round(0.0588 * (100 * letters / words) - 0.296 *
