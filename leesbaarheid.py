@@ -42,4 +42,4 @@ if __name__ == '__main__':
     if grade < 1:
         print("Below Grade 1")
     else:
-        print(f"Grade {}")
+        print(f"Grade {grade}")
