@@ -7,6 +7,7 @@ def check_input(dna: str) -> bool:
     False
     
     >>> check_input("actg")
+    True
     """
     for i in dna.upper():
         if i not in "AGCT":
