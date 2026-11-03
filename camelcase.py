@@ -12,6 +12,7 @@ def convert(text: str) -> str:
             cam = cam + i
         if snake == True:
             cam = cam + i.upper()
+            
         if i == "_":
             snake = True
         
