@@ -1,4 +1,4 @@
 def shout(text: str) -> str:
     """
-    schrijft alle 
+    schrijft alle woorden in hoofdletters
     """
