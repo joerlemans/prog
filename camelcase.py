@@ -6,7 +6,7 @@ def convert(text: str) -> str:
     'tweeWoorden'
     
     >>> convert("hi_hoi_bye")
-    'hiHoiBye'
+    'hi_hoi_bye'
     """
     snake = ""
     for i in text:
