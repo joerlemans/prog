@@ -2,6 +2,7 @@ def convert(text: str) -> str:
     """
     convert snake naar camel
     
+    >>> conver()
     """
     cam = ""
     snake = False
