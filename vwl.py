@@ -1,1 +1,2 @@
-def remove_vowels()
+def remove_vowels(text: srt) -> str:
+    
