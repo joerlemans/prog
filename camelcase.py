@@ -3,7 +3,7 @@ def convert(text: str) -> str:
     convert snake naar camel
     
     >>> convert("tweeWoorden")
-    'tweeWoorden'
+    'twee_woorden'
     
     >>> convert("hiHoiBye")
     'hi_hoi_bye'
