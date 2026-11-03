@@ -5,3 +5,4 @@ def shout(text: str) -> str:
     >>> shout("hoi")
     'HOI'
     """
+    
