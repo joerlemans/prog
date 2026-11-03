@@ -19,4 +19,5 @@ def yell(text: str) -> str:
         else:
             result = result + i
     return result
-    
+
+if
