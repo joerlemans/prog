@@ -33,7 +33,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
     Berekent de index volgens de Coleman Liau-formule.
     
-    >>> coleman_liau(8, )
+    >>> coleman_liau(8, , 29)
     """
     return round(0.0588 * (100 * letters / words) - 0.296 *
     (100 * sentences / words) - 15.8)
