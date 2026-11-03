@@ -13,7 +13,6 @@ def convert(text: str) -> str:
             snake = False
         if i == "_":
             snake = True
-        
         if snake == False:
             cam = cam + i
         
