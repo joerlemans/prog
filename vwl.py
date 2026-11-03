@@ -3,4 +3,4 @@ def remove_vowels(text: srt) -> str:
     for i in text:
         if i not in "euioa":
             result = result + i
-    
+    return result
