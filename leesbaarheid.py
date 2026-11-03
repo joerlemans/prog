@@ -40,4 +40,4 @@ if __name__ == '__main__':
     result = input("Text: ")
     grade = calculate_grade(result)
     if grade < 1:
-        print("Below Grade )
+        print("Below Grade 1")
