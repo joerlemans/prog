@@ -8,8 +8,6 @@ def convert(text: str) -> str:
     cam = ""
     snake = False
     for i in text:
-        if snake == False:
-            cam = cam + i
         if snake == True:
             cam = cam + i.upper()
             snake = False
