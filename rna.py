@@ -40,7 +40,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     return rna
 
 if __name__ == '__main__':
-    result = input()
+    result = input("DNA: ")
     while check_input(result) == False:
         result = input()
     print(transcribe_dna_to_rna(result))
