@@ -12,6 +12,7 @@ def yell(text: str) -> str:
     ieufhiweufl..,/
     
     """
+    result = ""
     for i in text:
         if i in "!?":
             
