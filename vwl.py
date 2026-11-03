@@ -13,3 +13,5 @@ def remove_vowels(text: srt) -> str:
         if i not in "euioa":
             result = result + i
     return result
+
+if __name__ == __
