@@ -15,4 +15,4 @@ def remove_vowels(text: srt) -> str:
     return result
 
 if __name__ == '__main__':
-    
+    inp = input()
