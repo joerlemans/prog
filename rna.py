@@ -15,7 +15,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     Ga ervan uit dat een valide string wordt gegeven (dus geen
     check aanroepen).
     """
-    result = ""
+    rna = ""
     for i in dna.upper():
         if i ==  "A":
             result = result + "U"
