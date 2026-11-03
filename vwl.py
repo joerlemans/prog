@@ -14,4 +14,4 @@ def remove_vowels(text: srt) -> str:
             result = result + i
     return result
 
-if __name__ == __
+if __name__ == 
