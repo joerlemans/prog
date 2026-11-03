@@ -41,5 +41,6 @@ if __name__ == '__main__':
     grade = calculate_grade(result)
     if grade < 1:
         print("Below Grade 1")
+    if grade > 16
     else:
         print(f"Grade {grade}")
