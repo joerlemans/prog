@@ -5,7 +5,7 @@ def remove_vowels(text: srt) -> str:
     >>> remove_vowels("just setting up my twitter")
     'jst sttng p my twttr'
     
-    >>> remove_vowels("")
+    >>> remove_vowels("hello")
     """
     result = ""
     for i in text:
