@@ -8,4 +8,6 @@ def yell(text: str) -> str:
     >>> yell("Wat?!")
     Wat!!??
     
+    >>> yell("ieufhiweufl..,/")
+    
     """
