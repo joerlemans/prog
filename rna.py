@@ -42,7 +42,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
 if __name__ == '__main__':
     result = input("DNA: ")
     if check_input(result) == False:
-        print("That is not a valid DNA string.")
+        print("That is not a valid DNA string")
     else:
         print(f"RNA: {transcribe_dna_to_rna(result)}")
     
