@@ -32,7 +32,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     Berekent de index volgens de Coleman Liau-formule.
     """
     
-    grade = 0.0588 * (100  - 0.296 * S - 15.8
+    grade = 0.0588 * (100 *  - 0.296 * S - 15.8
 
 if __name__ == '__main__':
     result = input()
