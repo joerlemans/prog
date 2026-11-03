@@ -32,7 +32,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     Berekent de index volgens de Coleman Liau-formule.
     """
     
-    return 0.0588 * (100 * letters / words) - 0.296 * (100 * sentences / words) - 15.8
+    return (0.0588 * (100 * letters / words) - 0.296 * (100 * sentences / words) - 15.8
 
 if __name__ == '__main__':
     result = input()
