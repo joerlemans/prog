@@ -31,6 +31,8 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
     Berekent de index volgens de Coleman Liau-formule.
     """
+    
+    Grade_X 
 
 if __name__ == '__main__':
     result = input()
