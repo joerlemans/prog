@@ -8,4 +8,4 @@ def shout(text: str) -> str:
     cap = ""
     for i in text:
         cap = cap + i.upper()
-    
+    return caps
