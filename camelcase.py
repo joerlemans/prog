@@ -20,6 +20,9 @@ def convert(text: str) -> str:
             cam = cam + i
     return cam
     
+    snake = ""
+    for i in text:
+        
 
 if __name__ == '__main__':
     result = print()
