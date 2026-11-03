@@ -20,7 +20,7 @@ def calculate_grade(text: str) -> int:
             letters += 1
         if i == " ":
             words += 1
-        if i == ".":
+        if i == "." or i == ":
             sentences += 1
     if text[-1] != " ":
         words += 1
