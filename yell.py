@@ -1,4 +1,6 @@
 def yell(text: str) -> str:
     """
-    maak
+    maakt een nieuwe string met dubbel ! en ?
+    
+    >>>
     """
