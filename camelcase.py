@@ -6,4 +6,4 @@ def convert(text: str) -> str:
         if i == "_":
             snake = True
         if snake == False:
-            
+            cam = cam + i
