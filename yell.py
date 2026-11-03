@@ -5,6 +5,6 @@ def yell(text: str) -> str:
     >>> yell("Hey!")
     Hey!!
     
-    >>> yell("Wat?")
+    >>> yell("Wat?!")
     
     """
