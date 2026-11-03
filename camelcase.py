@@ -12,7 +12,7 @@ def convert(text: str) -> str:
     for i in text:
         if i.isupper == True:
             snake = snake + "_"
-        snake = snake + i
+        snake = snake + i.lower
     return snake
         
 
