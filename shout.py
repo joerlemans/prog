@@ -10,4 +10,5 @@ def shout(text: str) -> str:
         caps = caps + i.upper()
     return caps
 
-if __name__ == '__'
+if __name__ == '__main__':
+    
