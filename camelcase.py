@@ -18,4 +18,4 @@ def convert(text: str) -> str:
 
 if __name__ == '__main__':
     result = print()
-    
+    print(convert(result))
