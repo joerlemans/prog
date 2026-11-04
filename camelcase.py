@@ -10,7 +10,7 @@ def convert(text: str) -> str:
     """
     snake = ""
     for i in text:
-        if i in == True:
+        if i in "":
             print("l")
             snake = snake + "_"
         snake = snake + i
