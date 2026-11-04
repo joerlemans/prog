@@ -13,7 +13,7 @@ def convert(text: str) -> str:
         if i in "QWERTYUIOPASDFGHJKLZXCVBNM":
             print("l")
             snake = snake + "_"
-        snake = snake + i
+        snake = snake + i.lower()
     return snake
 
 if __name__ == '__main__':
