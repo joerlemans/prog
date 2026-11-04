@@ -10,12 +10,12 @@ def convert(text: str) -> str:
     """
     snake = ""
     for i in text:
-        if i.isupper == True:
+        if i in == True:
             print("l")
             snake = snake + "_"
         snake = snake + i
     return snake
 
 if __name__ == '__main__':
-    result = print()
+    result = input()
     print(convert(result))
