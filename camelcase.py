@@ -9,6 +9,7 @@ def convert(text: str) -> str:
     'hi_hoi_bye'
     
     >>> convert("HAHAHA")
+    h_a_h_a_h_a
     """
     snake = ""
     for i in text:
