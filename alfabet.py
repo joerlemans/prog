@@ -6,7 +6,7 @@ def compare(word1: str, word2: str) -> int:
     1
     >>> compare("zekrom", "zygarde")
     -1
-    >>> compare("Henk", "Klaas")
+    >>> compare("Henk", "Henk")
     -1
     """
     
