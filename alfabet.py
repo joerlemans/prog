@@ -17,7 +17,7 @@ def compare(word1: str, word2: str) -> int:
             c += 1
         if L1 < L2:
             return -1
-        else:
+        if L1 >:
             return 1
     
 if __name__ == '__main__':
