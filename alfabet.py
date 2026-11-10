@@ -11,7 +11,7 @@ def compare(word1: str, word2: str) -> int:
     """
     for i in word1:
         for j in word2:
-            if
+            if i.upper
     
     while True:
         c = 0
