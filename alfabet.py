@@ -9,6 +9,8 @@ def compare(word1: str, word2: str) -> int:
     >>> compare("Henk", "Klaas")
     -1
     """
+    
+    
     while True:
         c = 0
         L1 = word1[c].upper()
