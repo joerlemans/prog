@@ -9,7 +9,8 @@ def compare(word1: str, word2: str) -> int:
     >>> compare("Henk", "Henk")
     -1
     """
-    
+    for i in word1:
+        
     
     while True:
         c = 0
