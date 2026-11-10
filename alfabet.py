@@ -9,7 +9,7 @@ def compare(word1: str, word2: str) -> int:
     >>> compare("Henk", "Henk")
     -1
     """
-    if wor
+    
     
     for i in word1:
         for j in word2:
