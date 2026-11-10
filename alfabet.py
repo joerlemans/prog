@@ -11,7 +11,7 @@ def compare(word1: str, word2: str) -> int:
     """
     while True:
         c = 0
-        L1 = word1[0].upper()
+        L1 = word1[c].upper()
         L2 = word2[0].upper()
         if L1 == L2:
             c += 1
