@@ -18,7 +18,8 @@ def compare(word1: str, word2: str) -> int:
         if L1 < L2:
             return -1
         if L1 > L2:
-            return 1
+            break
+    return 1
     
 if __name__ == '__main__':
     word1 = input("Woord 1: ")
