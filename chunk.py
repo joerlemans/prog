@@ -1,6 +1,6 @@
 def chunk(n: int, lst: list[object]) -> list[object]:
     """
-    >>> chunk()
+    >>> chunk(3, [])
     """
     chunk_list = []
     new_list = []
