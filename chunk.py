@@ -14,6 +14,7 @@ def chunk(lst: list[object], n: int) -> list[list[object]]:
     """
         
     chunk_1 = []
+    if len(lst) != 0:
     new_1 : list[object] = []
     for i in lst:
         if len(new_1) >= n:
