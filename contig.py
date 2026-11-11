@@ -10,6 +10,6 @@ def contig(lst; list[object]) -> list[list[object]]:
             new_lst.append(i)
         else:
             contiguous.append(new_lst)
-            
+            new_lst = []
             
         
