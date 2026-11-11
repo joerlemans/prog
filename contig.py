@@ -12,7 +12,7 @@ def contig(lst: list[int]) -> list[list[int]]:
     >>> contig([])
     []
     """
-    if lst == False:
+    if not lst:
         return []
     contiguous = []
     new_lst = [lst[0]]
