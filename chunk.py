@@ -10,7 +10,7 @@ def chunk(n: int, lst: list[object]) -> list[list[object]]:
     [[1, 2, 3, 5]]
     """
     chunk_list = []
-    new_list = []
+    new_1 = []
     for i in lst:
         if len(new_list) >= n:
             chunk_list.append(new_list)
