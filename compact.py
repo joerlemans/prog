@@ -1,6 +1,6 @@
 def compact(lst: list[object]) -> list[object]:
     """
-    >>> n1 = [1, 0, 3]
+    >>> n1 = [1, False, True, '', 0]
     >>> rotate(n1)
     >>> n1
     """
