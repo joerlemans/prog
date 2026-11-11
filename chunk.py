@@ -4,7 +4,7 @@ def chunk(n: int, lst: list[object]) -> list[object]:
     [[1, 2, 4], [3, 1, 1], [4, 5, 6]]
     
     >>> chunk(2, [1, 4, 3, 5, 6])
-    [[]]
+    [[1, 4], [2, 5]]
     """
     chunk_list = []
     new_list = []
