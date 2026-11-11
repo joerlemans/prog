@@ -4,7 +4,7 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
     [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
     
     >>> interleave([1], [2, 3, 4], True)
-    []
+    [1, 2, 3, 4]
     """
     if len(lst2) > len(lst1):
         longest = lst2
