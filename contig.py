@@ -5,6 +5,8 @@ def contig(lst: list[object]) -> list[list[object]]:
     
     >>> contig([3, 4, 1, 6, 7, 8, 1, 3])
     [[3, 4], [1], [6, 7, 8], [1], [3]]
+    
+    >>> contig([])
     """
     contiguous = []
     new_lst = [lst[0]]
