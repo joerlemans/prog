@@ -7,4 +7,4 @@ def uniq(lst: list[object]) -> list[object]:
     unique = []
     for i in lst:
         if i not in unique:
-            unique.append()
+            unique.append(i)
