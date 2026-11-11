@@ -16,5 +16,5 @@ def chunk(n: int, lst: list[object]) -> list[list[object]]:
             chunk_1.append(new_1)
             new_1 = []
         new_1.append(i)
-    chunk_list.append(new_list)
+    chunk_1.append(new_list)
     return chunk_list    
