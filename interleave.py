@@ -3,4 +3,4 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
     interleave([1, 2, 3, 4, 5], [1, 2, 3, 4, 5], True)
     [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
     """
-    
+    if len
