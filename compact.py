@@ -3,7 +3,7 @@ def compact(lst: list[object]) -> list[object]:
     >>> n1 = [1, False, True, '', 0]
     >>> compact(n1)
     >>> n1
-    []
+    [1, True]
     """
     truthy = []
     for i in range(len(lst)):
