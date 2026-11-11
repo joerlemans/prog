@@ -11,7 +11,7 @@ def rotate(lst: list[object]) -> None:
             lst[i] = first
         else:
             lst[i] = lst[i + 1]
-    return
+    return lst
     
     
 rotate([1, 2, 3])
