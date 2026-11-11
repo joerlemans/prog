@@ -1,1 +1,1 @@
-def chunk(n: int, lst: list[object]) -> list
+def chunk(n: int, lst: list[object]) -> list:
