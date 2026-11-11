@@ -7,5 +7,5 @@ def compact(lst: list[object]) -> list[object]:
             truthy.append(i)
     return truthy
 
-print()
+print(compact)
     
