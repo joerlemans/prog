@@ -1,4 +1,4 @@
-def contig(lst: list[int]) -> list[list[object]]:
+def contig(lst: list[int]) -> list[list[int]]:
     """
     >>> contig([1, 2, 3, 2, 3, 4])
     [[1, 2, 3], [2, 3, 4]]
