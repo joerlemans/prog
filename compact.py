@@ -9,5 +9,4 @@ def compact(lst: list[object]) -> list[object]:
             truthy.append(lst[i])
     return truthy
 
-print(compact([1, False, True, '', 0]))
     
