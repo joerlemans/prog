@@ -11,5 +11,5 @@ def contig(lst; list[object]) -> list[list[object]]:
         else:
             contiguous.append(new_lst)
             new_lst = []
-            
+    return contiguous
         
