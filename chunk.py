@@ -12,7 +12,6 @@ def chunk(lst: list[object], n: int) -> list[list[object]]:
     >>> chunk([], 4)
     []
     """
-    if len(lst) != 0:
         
     chunk_1 = []
     new_1 : list[object] = []
