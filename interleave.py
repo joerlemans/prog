@@ -9,7 +9,7 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
         longest = lst1
     
     interlst = []
-    for i in range(len(lst2)):
+    for i in range(len(longest)):
         
         if lst2[i] not in interlst:
             interlst.append(lst2[i])
