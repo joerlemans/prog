@@ -5,6 +5,8 @@ def chunk(n: int, lst: list[object]) -> list[object]:
     
     >>> chunk(2, [1, 4, 3, 5, 6])
     [[1, 4], [3, 5], [6]]
+    
+    
     """
     chunk_list = []
     new_list = []
