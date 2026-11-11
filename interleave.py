@@ -7,5 +7,4 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
         twee = True
     else:
         twee = False
-    if twee == True:
-        
+    
