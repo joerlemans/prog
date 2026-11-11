@@ -14,4 +14,4 @@ def rotate(lst: list[object]) -> None:
     return lst
     
     
-print(rotate([1, 2, 3])
+print(rotate([1, 2, 3]))
