@@ -6,5 +6,5 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
     if len(lst2) > len(lst1):
         twee = True
     else:
-        twee = false
+        twee = False
         
