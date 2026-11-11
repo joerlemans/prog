@@ -18,7 +18,7 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
             interlst.append(lst1[i])
             interlst.append(lst2[i])
         if i > len(shortest) - 1 and keep == True:
-            interlst.append(lst1[i])
+            interlst.append(lst[i])
             interlst.append(lst2[i])
     return interlst
         
