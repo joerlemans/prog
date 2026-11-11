@@ -1,5 +1,8 @@
 def compact(lst: list[object]) -> list[object]:
     """
+    >>> n1 = [1, 2, 3]
+    >>> rotate(n1)
+    >>> n1
     """
     truthy = []
     for i in range(len(lst)):
