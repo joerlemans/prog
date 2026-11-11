@@ -5,4 +5,6 @@ def uniq(lst: list[object]) -> list[object]:
     """
     
     unique = []
-    for i in 
+    for i in lst:
+        if i not in unique:
+            unique.append()
