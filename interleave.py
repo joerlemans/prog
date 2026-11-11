@@ -5,6 +5,7 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
     """
     if len(lst2) > len(lst1):
         longest = lst2
+        shortest = lst1
     else:
         longest = lst1
     interlst = []
