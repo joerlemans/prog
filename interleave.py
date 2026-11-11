@@ -9,5 +9,5 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
         twee = False
     
     for i in range(len(lst2)):
-        if lst2[i] in 
+        if lst2[i] not in 
         
