@@ -2,7 +2,7 @@ def compact(lst: list[object]) -> list[object]:
     """
     >>> compact([1, False, True, '', 0])
     [1, True]
-    >>> compact([h, j])
+    >>> compact(['h', 'j'])
     [h, j]
     """
     truthy = []
