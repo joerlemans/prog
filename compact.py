@@ -6,7 +6,7 @@ def compact(lst: list[object]) -> list[object]:
     """
     truthy = []
     for i in range(len(lst)):
-        if :
+        if lst[i]:
             truthy.append(lst[i])
     return truthy
 
