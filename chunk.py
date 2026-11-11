@@ -13,7 +13,7 @@ def chunk(lst: list[object], n: int) -> list[list[object]]:
     []
     """
     if len(lst) == 0:
-        return lst
+        
     chunk_1 = []
     new_1 : list[object] = []
     for i in lst:
