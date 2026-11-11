@@ -6,4 +6,6 @@ def compact(lst: list[object]) -> list[object]:
         if i:
             truthy.append(i)
     return truthy
+
+print()
     
