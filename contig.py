@@ -13,4 +13,3 @@ def contig(lst: list[object]) -> list[list[object]]:
             new_lst = [lst[i]]
     contiguous.append(new_lst)
     return contiguous
-        
