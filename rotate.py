@@ -10,6 +10,6 @@ def rotate(lst: list[object]) -> None:
         if i == len(lst):
             lst[i] = first
         lst[i] = lst[i + 1]
-    return first
+    print(first)
     
     rotate([1, 2, 3])
