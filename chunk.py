@@ -3,7 +3,7 @@ def chunk(n: int, lst: list[object]) -> list[object]:
     while:
         new_list = []
         for i in lst:
-            if len(new_list) 
+            if len(new_list) >=
             new_list.append(i)
         
         
