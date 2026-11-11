@@ -12,4 +12,4 @@ def rotate(lst: list[object]) -> None:
         lst[i] = lst[i + 1]
     return first
     
-    rotate()
+    rotate([1, 2, 3])
