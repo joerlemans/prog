@@ -1,4 +1,4 @@
 def contig(lst; list[object]) -> list[list[object]]:
     """
-    >>> contig([123])
+    >>> contig([1, 2, 3, 2, 3, 4])
     """
