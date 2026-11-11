@@ -4,6 +4,7 @@ def uniq(lst: list[object]) -> list[object]:
     ['x', 1, 0]
     
     >>> uniq([1, 2, 3, 4, 5, 6, 7])
+    []
     """
     
     unique = []
