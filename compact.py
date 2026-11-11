@@ -1,2 +1,2 @@
-def compact(lst: list[object]) -> None:
+def compact(lst: list[object]) -> list[obect]:
     
