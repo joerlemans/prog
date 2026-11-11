@@ -8,3 +8,5 @@ def uniq(lst: list[object]) -> list[object]:
     for i in lst:
         if i not in unique:
             unique.append(i)
+    return unique
+    
