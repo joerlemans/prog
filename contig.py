@@ -5,4 +5,5 @@ def contig(lst; list[object]) -> list[list[object]]:
     """
     contiguous = []
     for i in range(len(lst)):
+        if 
         
