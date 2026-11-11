@@ -1,0 +1,1 @@
+def contig(lst; list[object]) -> list[]
