@@ -1,4 +1,4 @@
-def chunk(n: int, lst: list[object]) -> list[list[object]]:
+def chunk(lst: list[object]) -> list[list[object]]:
     """
     >>> chunk(3, [1, 2, 4, 3, 1, 1, 4, 5, 6])
     [[1, 2, 4], [3, 1, 1], [4, 5, 6]]
