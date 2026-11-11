@@ -5,7 +5,6 @@ def contig(lst: list[object]) -> list[list[object]]:
     """
     contiguous = []
     new_lst = [lst[0]]
-    
     for i in range(len(lst)):
         if lst[i] == :
             new_lst.append(lst[i])
