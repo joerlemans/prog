@@ -8,6 +8,8 @@ def chunk(lst: list[object], n: int) -> list[list[object]]:
     
     >>> chunk([1, 2, 3, 5], 10)
     [[1, 2, 3, 5]]
+    
+    >>> chunk([])
     """
     if len(lst) == 0:
         return lst
