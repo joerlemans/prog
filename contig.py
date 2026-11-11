@@ -9,6 +9,6 @@ def contig(lst; list[object]) -> list[list[object]]:
         if lst[i] == contiguous[i] + 1:
             new_lst.append(i)
         else:
-            
+            contiguous.append
             
         
