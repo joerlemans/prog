@@ -9,7 +9,8 @@ def chunk(lst: list[object], n: int) -> list[list[object]]:
     >>> chunk([1, 2, 3, 5], 10)
     [[1, 2, 3, 5]]
     """
-    if len
+    if len(lst) == 0:
+        return
     chunk_1 = []
     new_1 : list[object] = []
     for i in lst:
