@@ -7,4 +7,3 @@ def chunk(n: int, lst: list[object]) -> list[object]:
             new_list = []
         new_list.append(i)
     return chunk_list    
-        
