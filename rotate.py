@@ -7,7 +7,7 @@ def rotate(lst: list[object]) -> None:
     """
     first = lst[0]
     for i in range(len(lst)):
-        if i == len(lst):
+        if i == len(lst) - 1:
             lst[i] = first
         else:
             lst[i] = lst[i + 1]
