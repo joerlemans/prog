@@ -8,5 +8,5 @@ def rotate(lst: list[object]) -> None:
     first = lst[0]
     for i in range(len(lst)):
         if i == len(lst):
-            
+            lst[i] = 
         lst[] = lst[]
