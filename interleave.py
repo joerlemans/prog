@@ -7,7 +7,6 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> list[objec
         longest = lst2
     else:
         longest = lst1
-    
     interlst = []
     for i in range(len(longest)):
         
