@@ -8,6 +8,9 @@ def contig(lst: list[int]) -> list[list[int]]:
     
     >>> contig([1, 1, 1])
     [[1], [1], [1]]
+    
+    >>> contig([])
+    []
     """
     if lst == False:
         return []
