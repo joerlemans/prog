@@ -1,4 +1,7 @@
 def chunk(n: int, lst: list[object]) -> list[object]:
+    """
+    >>> 
+    """
     chunk_list = []
     new_list = []
     for i in lst:
