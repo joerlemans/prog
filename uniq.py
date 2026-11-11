@@ -1,1 +1,1 @@
-def uniq()
+def uniq(lst: list[object])
