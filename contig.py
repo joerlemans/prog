@@ -4,7 +4,7 @@ def contig(lst: list[object]) -> list[list[object]]:
     [[1, 2, 3], [2, 3, 4]]
     """
     contiguous = []
-    new_lst = [0]
+    new_lst = []
     for i in range(len(lst)):
         if lst[i] == :
             new_lst.append(lst[i])
