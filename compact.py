@@ -1,6 +1,6 @@
 def compact(lst: list[object]) -> list[object]:
     """
-   compact(n1)
+    >>>compact(n1)
     >>> n1
     [1, True]
     """
