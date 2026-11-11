@@ -1,1 +1,1 @@
-def chunk(n: int, )
+def chunk(n: int, lst: lst[])
