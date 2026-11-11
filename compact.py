@@ -1,6 +1,6 @@
 def compact(lst: list[object]) -> list[object]:
     """
-    >>>compact(n1)
+    >>>compact([1, False, True, '', 0])
     [1, True]
     """
     truthy = []
