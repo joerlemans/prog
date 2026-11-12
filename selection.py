@@ -7,7 +7,8 @@ def selection_sort(l: list[int]) -> list[int]:
     >>> selection_sort([8, 7, 9, 6, 1, 2, 5, 4, 3])
     [1, 2, 3, 4, 5, 6, 7, 8, 9]
     
-    >>> selection_sort([7, 8, 7, 8, 7, 8])
+    >>> selection_sort([7, 8, 7, 8, 7, 8, 7, 8])
+    [7, 7, 7, 7, 8, 8, 8, 8]
     """
     sortd = 0
     while sortd < len(l):
