@@ -6,4 +6,4 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     sort = 0
     for i in range(sort, len(l)):
-        if l[i] 
+        if l[i] <
