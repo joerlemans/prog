@@ -12,4 +12,4 @@ def longest_word_from_list(lst: list[object]) -> str:
 def print_banner(lst: list[object]) -> str:
     """
     """
-    size = len(longest_word_from_list(lst)
+    size = len(longest_word_from_list(lst))
