@@ -6,7 +6,7 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     sortd = 0
     while sortd < len(l)
-    value = float('inf')
+        value = float('inf')
         for i in range(sortd, len(l)):
             if l[i] < value:
                 value = l[i]
