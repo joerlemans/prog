@@ -40,7 +40,7 @@ def string_to_list(sent: str) -> list[object]:
     for i in sent:
         if i.isalpha():
             new_word += i
-        else:
+        elif:
             word_lst.append(new_word)
             new_word = ''
     word_lst.append(new_word)
