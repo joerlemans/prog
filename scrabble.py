@@ -21,6 +21,7 @@ def compute_letter_score(letter: str) -> int:
     1
     
     >>> compute_letter_score('z')
+    10
     """
     letter = letter.lower()
     alpha = "abcdefghijklmnopqrstuvwxyz"
