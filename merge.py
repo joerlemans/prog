@@ -15,6 +15,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list[int]:
         return result
     if len(lst1) < len(lst2):
         length = len(lst2)
+        lst3 = lst2
         start = j
     if len(lst1) > len(lst2):
         length = len(lst1)
