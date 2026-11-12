@@ -16,7 +16,7 @@ def print_banner(lst: list[object]) -> None:
     hoi
     hallo
     haai
-    
+    #####
     """
     size = len(longest_word_from_list(lst))
     for i in range(size):
