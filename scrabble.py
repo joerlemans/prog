@@ -26,4 +26,5 @@ if __name__ == '__main__':
     score2 = compute_score(result2)
     if score1 == score2:
         print("Gelijkspel!")
-    elif 
+    elif score1 > score2:
+        
