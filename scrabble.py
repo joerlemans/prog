@@ -12,7 +12,7 @@ def compute_letter_score(letter: str) -> int:
     """
     letter = letter.lower()
     alpha = "abcdefghijklmnopqrstuvwxyz"
-    print()
+    print(alpha[letter])
 
 if __name__ == '__main__':
     <Hoofdprogramma>
