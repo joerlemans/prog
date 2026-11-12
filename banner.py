@@ -32,7 +32,7 @@ def print_banner(lst: list[str]) -> None:
         print('#', end='')
     print()
     for j in lst:
-        print(i)
+        print(j)
     for k in range(size):
         print('#', end='')
     return
