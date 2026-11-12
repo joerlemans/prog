@@ -17,7 +17,8 @@ def compute_letter_score(letter: str) -> int:
     """
     Bereken en return de score voor één enkele letter.
     
-    >>> compute_letter_score('a)
+    >>> compute_letter_score('a')
+    1
     """
     letter = letter.lower()
     alpha = "abcdefghijklmnopqrstuvwxyz"
