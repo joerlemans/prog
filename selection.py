@@ -5,6 +5,9 @@ def selection_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     
     >>> selection_sort([8, 7, 9, 6, 1, 2, 5, 4, 3])
+    [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    
+    
     """
     sortd = 0
     while sortd < len(l):
