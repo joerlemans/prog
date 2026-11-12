@@ -1,1 +1,1 @@
-def merge_lists([1, 2, 5], [])
+def merge_lists([1, 2, 5], [4, 5, 6])
