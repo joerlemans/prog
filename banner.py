@@ -55,4 +55,4 @@ def string_to_list(sent: str) -> list[object]:
 
     if __name__ == '__main__':
         result = input("Geef een zin: ")
-        prin
+        print
