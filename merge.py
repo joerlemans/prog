@@ -7,7 +7,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list[int]:
     [1, 2, 3, 4, 5, 6, 8, 10]
     
     >>> merge_lists([9, 8, 7], [5, 4, 3])
-    []
+    [5, 4, 3, 9, 8, 7]
     """
     result = []
     i = 0
