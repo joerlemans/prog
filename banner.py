@@ -54,5 +54,5 @@ def string_to_list(sent: str) -> list[object]:
     return word_lst
 
 if __name__ == '__main__':
-        result = input("Geef een zin: ")
+    result = input("Geef een zin: ")
         print_banner(string_to_list(result))
