@@ -35,6 +35,7 @@ def print_banner(lst: list[str]) -> None:
         print(j)
     for k in range(size):
         print('#', end='')
+    
     return
 
 def string_to_list(sent: str) -> list[str]:
