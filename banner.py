@@ -39,6 +39,7 @@ def string_to_list(sent: str) -> list[object]:
         if i.isalpha():
             new_word += i
         else:
+            word_lst.append(new_word)
             
 
     
