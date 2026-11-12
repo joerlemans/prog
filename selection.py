@@ -11,5 +11,4 @@ def selection_sort(l: list[int]) -> list[int]:
             if l[i] < value:
                 value = l[i]
                 ind = i
-        
         l[sortd], l[ind] = l[ind], l[sorted]
