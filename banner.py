@@ -11,7 +11,7 @@ def longest_word_from_list(lst: list[object]) -> str:
 
 def print_banner(lst: list[object]) -> None:
     """
-    
+    >>> print_banner([])
     """
     size = len(longest_word_from_list(lst))
     for i in range(size):
