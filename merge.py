@@ -4,6 +4,6 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list[int]:
     result = []
     i = 0
     j = 0
-    while i or j < len(lst1) and len(lst2):
+    while i or j < len(lst1) - 1 and len(lst2):
         
     
