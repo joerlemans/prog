@@ -1,4 +1,4 @@
-def longest_word_from_list(lst: list[object]) -> :
+def longest_word_from_list(lst: list[object]) -> str:
     """
     """
     
