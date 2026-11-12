@@ -30,7 +30,7 @@ def compute_letter_score(letter: str) -> int:
     alpha = "abcdefghijklmnopqrstuvwxyz"
     if letter not in alpha:
         return 0
-    return POINTS[position]
+    return POINTS[alpha.index(letter)]
 
 if __name__ == '__main__':
     result1 = input("Speler 1: ")
