@@ -37,7 +37,7 @@ def print_banner(lst: list[str]) -> None:
         print('#', end='')
     return
 
-def string_to_list(sent: str) -> list[object]:
+def string_to_list(sent: str) -> list[str]:
     """
     >>> string_to_list('Hoi dit is een zin')
     ['Hoi', 'dit', 'is', 'een', 'zin']
