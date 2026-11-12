@@ -17,5 +17,5 @@ def print_banner(lst: list[object]) -> str:
         print('#', end='')
     for i in lst:
         print(i)
-    
+    for i in range(size)
     
