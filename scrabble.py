@@ -21,5 +21,5 @@ def compute_letter_score(letter: str) -> int:
 
 if __name__ == '__main__':
     result1 = input("Speler 1: ")
-    result2 = input()
+    result2 = input("Speler 2: ")
     print(compute_score(result))
