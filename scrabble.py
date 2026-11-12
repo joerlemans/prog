@@ -20,5 +20,5 @@ def compute_letter_score(letter: str) -> int:
     return POINTS[position]
 
 if __name__ == '__main__':
-    result = input()
+    result1 = input()
     print(compute_score(result))
