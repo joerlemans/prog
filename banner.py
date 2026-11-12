@@ -26,5 +26,8 @@ def print_banner(lst: list[object]) -> None:
         print(i)
     for i in range(size):
         print('#', end='')
+    return
+
+
 
     
