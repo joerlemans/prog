@@ -34,7 +34,7 @@ def string_to_list(sent: str) -> list[object]:
     ['Hoi', 'dit', 'is', 'een', 'zin']
     
     >>> string_to_list('soms, is een zin, wat lastiger.')
-    ['soms', ]
+    ['soms', 'is', 'een', 'zin', 'wat', 'lastiger']
     """
     word_lst = []
     new_word = ''
