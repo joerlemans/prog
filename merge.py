@@ -23,3 +23,4 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list[int]:
         start = i
     for k in range(start, length):
         result.append(lst3[k])
+    return result
