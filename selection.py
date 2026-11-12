@@ -9,6 +9,9 @@ def selection_sort(l: list[int]) -> list[int]:
     
     >>> selection_sort([7, 8, 7, 8, 7, 8, 7, 8])
     [7, 7, 7, 7, 8, 8, 8, 8]
+    
+    >>> selection_sort([])
+    []
     """
     sortd = 0
     while sortd < len(l):
