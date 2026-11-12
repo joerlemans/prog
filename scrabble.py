@@ -6,7 +6,7 @@ def compute_score(word: str) -> int:
     Bereken en return de score voor het woord.
     """
     for i in word:
-        
+        com
 
 def compute_letter_score(letter: str) -> int:
     """
