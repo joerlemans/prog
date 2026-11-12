@@ -5,4 +5,5 @@ def selection_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     """
     sorted = 0
-    
+    for i in l:
+        
