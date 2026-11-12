@@ -12,7 +12,7 @@ def longest_word_from_list(lst: list[str]) -> str:
             longest = i
     return longest
 
-def print_banner(lst: list[object]) -> None:
+def print_banner(lst: list[str]) -> None:
     """
     >>> print_banner(['hoi', 'hallo', 'haai'])
     #####
