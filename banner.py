@@ -1,1 +1,1 @@
-def longest_word_from
+def longest_word_from_list
