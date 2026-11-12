@@ -1,6 +1,7 @@
 def longest_word_from_list(lst: list[object]) -> str:
     """
     >>> longest_word_from_list(['hoi', 'hallo', 'haai'])
+    '
     """
     longest = ''
     for i in lst:
