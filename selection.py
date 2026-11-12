@@ -12,6 +12,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 value = l[i]
                 ind = i
         l[sortd], l[ind] = l[ind], l[sortd]
+        sortd += 1
     return l
     
 print(selection_sort([4, 3, 2, 1]))
