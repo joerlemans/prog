@@ -34,6 +34,7 @@ def string_to_list(sent: str) -> list[object]:
     ['Hoi', 'dit', 'is', 'een', 'zin']
     """
     new_word = ''
-    for i in
+    for i in sent:
+        
 
     
