@@ -16,6 +16,7 @@ def compute_letter_score(letter: str) -> int:
     """
     letter = letter.lower()
     alpha = "abcdefghijklmnopqrstuvwxyz"
+    
     position = alpha.index(letter)
     return POINTS[position]
 
