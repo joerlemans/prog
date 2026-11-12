@@ -4,7 +4,7 @@ def selection_sort(l: list[int]) -> list[int]:
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
     
-    
+    >>> selection_sort([8, 7, 9, 6, 1, 2, 3, 4, 5])
     """
     sortd = 0
     while sortd < len(l):
