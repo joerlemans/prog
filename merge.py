@@ -22,7 +22,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list[int]:
         lst3 = lst1
         start = i
     else:
-        return
+        return result
     for k in range(start, length):
         result.append(lst3[k])
     return result
