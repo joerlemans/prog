@@ -5,6 +5,6 @@ def selection_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     """
     sortd = 0
-    
+    value = i
     for i in range(sortd, len(l)):
         if l[i] < 
