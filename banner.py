@@ -35,6 +35,6 @@ def string_to_list(sent: str) -> list[object]:
     """
     new_word = ''
     for i in sent:
-        
+        if i.isalpha 
 
     
