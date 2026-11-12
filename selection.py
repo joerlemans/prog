@@ -4,6 +4,6 @@ def selection_sort(l: list[int]) -> list[int]:
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
     """
-    sort = 0
-    for i in range(sort, len(l)):
+    sortd = 0
+    for i in range(sortd, len(l)):
         if l[i] <
