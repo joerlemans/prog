@@ -10,6 +10,6 @@ def selection_sort(l: list[int]) -> list[int]:
         for i in range(sortd, len(l)):
             if l[i] < value:
                 value = l[i]
-                ind
+                ind =
         
         l[sortd], l[ind] = l[ind], l[sorted]
