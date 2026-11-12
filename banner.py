@@ -30,7 +30,7 @@ def print_banner(lst: list[object]) -> None:
 
 def string_to_list(sent: str) -> list[object]:
     """
-    >>> string_to_list()
+    >>> string_to_list('Hoi dit is een zin)
     """
 
     
