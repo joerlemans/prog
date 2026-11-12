@@ -28,6 +28,6 @@ def print_banner(lst: list[object]) -> None:
         print('#', end='')
     return
 
-def string_to_list()
+def string_to_list(sent: str) -> list[object]:
 
     
