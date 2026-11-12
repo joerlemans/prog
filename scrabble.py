@@ -9,7 +9,7 @@ def compute_score(word: str) -> int:
     7
     
     >>> compute_score('zoink')
-    12
+    18
     """
     score = 0
     for i in word:
