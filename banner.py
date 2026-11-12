@@ -53,4 +53,4 @@ def string_to_list(sent: str) -> list[object]:
         word_lst.append(new_word)
     return word_lst
 
-    if
+    if __name__ == 
