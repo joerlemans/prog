@@ -45,7 +45,7 @@ def string_to_list(sent: str) -> list[object]:
             word_lst.append(new_word)
             new_word = ''
     if len(new_word) > 0:
-    word_lst.append(new_word)
+        word_lst.append(new_word)
     return word_lst
 
     
