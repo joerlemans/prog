@@ -23,6 +23,6 @@ if __name__ == '__main__':
     result1 = input("Speler 1: ")
     result2 = input("Speler 2: ")
     
-    if compute_score(result1) == compute_score(result2):
+    if score1 == compute_score(result2):
         print("Gelijkspel!")
     elif 
