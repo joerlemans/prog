@@ -4,7 +4,7 @@ def longest_word_from_list(lst: list[object]) -> str:
     'hallo'
     
     >>> longest_word_from_list(['ik', 'hottetottetentententoonstelling'])
-    
+    'hottetottetentententoonstelling'
     """
     longest = ''
     for i in lst:
