@@ -7,4 +7,5 @@ def selection_sort(l: list[int]) -> list[int]:
     sortd = 0
     value = math.inf
     for i in range(sortd, len(l)):
-        if l[i] < 
+        if l[i] < value:
+            
