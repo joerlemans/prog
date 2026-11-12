@@ -1,1 +1,1 @@
-def merge_lists([1, 2, 5], [4, 5, 6])
+def merge_lists(lst1, lst2)
