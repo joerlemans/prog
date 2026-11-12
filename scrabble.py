@@ -15,4 +15,5 @@ def compute_letter_score(letter: str) -> int:
     print(alpha[letter])
 
 if __name__ == '__main__':
-    <Hoofdprogramma>
+    result = input()
+    
