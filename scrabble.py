@@ -24,3 +24,4 @@ if __name__ == '__main__':
     result2 = input("Speler 2: ")
     if compute_score(result1) == compute_score(result2):
         print("Gelijkspel!")
+    elif 
