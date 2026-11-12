@@ -10,4 +10,4 @@ def selection_sort(l: list[int]) -> list[int]:
         for i in range(sortd, len(l)):
             if l[i] < value:
                 value = l[i]
-        l[sortd], l.index(value) = l[i], l[sorted]
+        l[sortd], l.index(value) = l, l[sorted]
