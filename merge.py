@@ -10,3 +10,4 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list[int]:
             j += 1
         else:
             result.append(lst1[i])
+            i += 1
