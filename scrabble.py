@@ -30,7 +30,7 @@ def compute_letter_score(letter: str) -> int:
     alpha = "abcdefghijklmnopqrstuvwxyz"
     if letter not in alpha:
         return 0
-    for i in alpha:
+    for i in range:
         if i == letter:
             ind = i
     return POINTS[ind]
