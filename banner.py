@@ -41,6 +41,7 @@ def string_to_list(sent: str) -> list[object]:
         else:
             word_lst.append(new_word)
             new_word = ''
+        
     return word_lst
 
     
