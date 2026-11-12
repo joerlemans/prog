@@ -18,3 +18,4 @@ def print_banner(lst: list[object]) -> str:
     for i in lst:
         print(i)
     
+    
