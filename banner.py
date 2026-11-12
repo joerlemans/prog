@@ -31,7 +31,7 @@ def print_banner(lst: list[str]) -> None:
     for i in range(size):
         print('#', end='')
     print()
-    for i in lst:
+    for j in lst:
         print(i)
     for i in range(size):
         print('#', end='')
