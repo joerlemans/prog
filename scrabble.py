@@ -16,4 +16,4 @@ def compute_letter_score(letter: str) -> int:
 
 if __name__ == '__main__':
     result = input()
-    
+    compute_letter_score(result)
