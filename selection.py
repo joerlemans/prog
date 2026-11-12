@@ -12,3 +12,4 @@ def selection_sort(l: list[int]) -> list[int]:
                 value = l[i]
                 ind = i
         l[sortd], l[ind] = l[ind], l[sorted]
+    return l
