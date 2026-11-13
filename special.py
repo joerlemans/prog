@@ -6,6 +6,8 @@ def special_sort(l: list[int]) -> list[int]:
     
     >>> special_sort([7, 4, 3, 9, 0, 2])
     [0, 2, 3, 4, 7, 9]
+    
+    >>> special_sort([])
     """
     for i in range(len(l) - 1):
         for j in range(i, len(l)):
