@@ -4,7 +4,8 @@ def special_sort(l: list[int]) -> list[int]:
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
     
-    >>> special_sort([])
+    >>> special_sort([7, 4, 3, 9, 0, 2])
+    [0, 2, 3, 4]
     """
     for i in range(len(l) - 1):
         for j in range(i, len(l)):
