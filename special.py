@@ -9,3 +9,4 @@ def special_sort(l: list[int]) -> list[int]:
             if l[i] > l[j]:
                 l[i], l[j] = l[j], l[i]
                 
+    
