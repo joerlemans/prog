@@ -9,3 +9,6 @@ def special_sort(l: list[int]) -> list[int]:
             if l[i] > l[j]:
                 l[i], l[j] = l[j], l[i]
     return l
+    
+    
+print(special_sort([9, 8, 7, 3, 5, 1, 6]))
