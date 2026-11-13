@@ -11,4 +11,4 @@ def special_sort(l: list[int]) -> list[int]:
     return l
     
     
-    print(special_sort([]))
+    print(special_sort([9, 8, 7]))
