@@ -4,4 +4,4 @@ def select_not_lower(strs: list[str])-> list[str]:
     ['Roep', 'Hallo']
     """
     upper = []
-    for i in
+    for i in range(len(strs))
