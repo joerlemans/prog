@@ -16,7 +16,6 @@ def select_not_lower(strs: list[str])-> list[str]:
     for i in strs:
         if i.islower() == False:
             upper.append(i)
-            break
     return upper
 
 def string_picker(strs: list[str], picks: list[int])-> str:
