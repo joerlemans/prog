@@ -8,3 +8,4 @@ def select_not_lower(strs: list[str])-> list[str]:
         for j in i:
             if j.isupper():
                 upper.append(i)
+                
