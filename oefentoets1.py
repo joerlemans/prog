@@ -43,5 +43,5 @@ def remove_prefix(s: str, prefix: str)-> str:
     'deloe'
     """
     for i in s:
-        
+        if
     
