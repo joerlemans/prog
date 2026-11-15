@@ -20,7 +20,7 @@ def select_not_lower(strs: list[str])-> list[str]:
 
 def string_picker(strs: list[str], picks: list[int])-> str:
     """
-    >>> string_picker(['a', 'bb'], [0, 0, 1])
+    >>> string_picker(['a', 'dd'], [0, 0, 1])
     'aabb'
     """
     
