@@ -6,7 +6,7 @@ def select_not_lower(strs: list[str])-> list[str]:
     >>> select_not_lower(['YO'])
     ['YO']
     
-    >>> select_not_lower(['hoi])
+    >>> select_not_lower(['hoi', 'hallo', 'doei'])
     """
     upper = []
     for i in strs:
