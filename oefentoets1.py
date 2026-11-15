@@ -29,7 +29,7 @@ def string_picker(strs: list[str], picks: list[int])-> str:
     >>> string_picker([],[])
     ''
     
-    >>> string_picker([ ])
+    >>> string_picker([])
     """
     output = ''
     for i in picks:
