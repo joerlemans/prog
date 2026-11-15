@@ -44,5 +44,5 @@ def remove_prefix(s: str, prefix: str)-> str:
     """
     output = ''
     for i in s:
-        if i not in
+        if i not in prefix
     
