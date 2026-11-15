@@ -43,6 +43,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     'deloe'
     """
     output = ''
-    for i in s:
+    for i in prefix:
+        
         
     
