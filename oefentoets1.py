@@ -24,5 +24,5 @@ def string_picker(strs: list[str], picks: list[int])-> str:
     'aadd'
     """
     output = ''
-    
+    for i in
     
