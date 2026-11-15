@@ -51,7 +51,8 @@ def most_vowely_word(sentence: str)-> str:
     'groene'
     """
     output = ''
-    
+    for i in sentence:
+        
     
         
         
