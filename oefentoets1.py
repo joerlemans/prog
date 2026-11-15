@@ -36,4 +36,6 @@ def string_picker(strs: list[str], picks: list[int])-> str:
     for i in picks:
         output += strs[i]
     return output
+
+
     
