@@ -26,7 +26,10 @@ def string_picker(strs: list[str], picks: list[int])-> str:
     >>> string_picker(['a', 'b', 'c'], [0, 1, 2])
     'abc'
     
-    >>> string_picker([])
+    >>> string_picker([],[])
+    ''
+    
+    >>> string_picker
     """
     output = ''
     for i in picks:
