@@ -6,4 +6,4 @@ def select_not_lower(strs: list[str])-> list[str]:
     upper = []
     for i in range(len(strs)):
         for j in i:
-            
+            if
