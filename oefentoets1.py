@@ -50,6 +50,7 @@ def most_vowely_word(sentence: str)-> str:
     >>> most_vowely_word('de groene kamer')
     'groene'
     """
+    output = ''
     
         
         
