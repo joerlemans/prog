@@ -44,7 +44,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     
     >>>
     """
-    if len
+    if len(prefix) > len(s) or 
     s.removeprefix(prefix)
     
 def most_vowely_word(sentence: str)-> str:
