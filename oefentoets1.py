@@ -56,8 +56,7 @@ def most_vowely_word(sentence: str)-> str:
     for i in sentence:
         if i.lower() is in 'aeiou':
             vowels + 1
-        if i == ' ':
-            
+        
         
     
         
