@@ -45,7 +45,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     >>> remove_prefix('hallo', '')
     'hallo'
     
-    >>> remove_prefix
+    >>> remove_prefix('huis', 'huisnummer')
     """
     return s.remove_prefix(prefix)
      
