@@ -47,7 +47,10 @@ def remove_prefix(s: str, prefix: str)-> str:
     """
     if not prefix:
         return s
-    if
+    if len(prefix) > len(s):
+        return s
+        
+    
 
 
     
