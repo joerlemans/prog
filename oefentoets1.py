@@ -53,7 +53,9 @@ def most_vowely_word(sentence: str)-> str:
     'hallo'
     
     >>> most_vowely_word('')
-
+    ''
+    
+    >>> most_vowely_word('hottetottententententoonstelling)
     """
     output = ''
     most = 0
