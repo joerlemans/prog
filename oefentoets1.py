@@ -78,4 +78,6 @@ def most_vowely_word(sentence: str)-> str:
             output = word
     return output
 
+def select_palindromes(strs: list[str])-> list[str]:
+    
 
