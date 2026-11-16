@@ -43,6 +43,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     'deloe'
     
     >>> remove_prefix('hallo', 'll')
+    'll'
     """
     
     if prefix in s:
