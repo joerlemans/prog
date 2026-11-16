@@ -90,7 +90,7 @@ def select_palindromes(strs: list[str])-> list[str]:
     ['lol']
     
     >>> select_palindromes(['geen', 'palindroom'])
-    {
+    []
     """
     output = []
     for i in strs:
