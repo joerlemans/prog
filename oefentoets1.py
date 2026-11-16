@@ -42,10 +42,9 @@ def remove_prefix(s: str, prefix: str)-> str:
     >>> remove_prefix('toedeloe', 'toe')
     'deloe'
     """
-    output = ''
-    for i in range(len(s)):
-        if text.startswith(prefix):
-    return s[len(prefix):]
+    
+    if text.startswith(prefix):
+        return s[len(prefix):]
     
         
         
