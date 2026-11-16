@@ -80,7 +80,7 @@ def most_vowely_word(sentence: str)-> str:
 
 def select_palindromes(strs: list[str])-> list[str]:
     """
-    >>> select_palindromes([' lepel', 'spoon', 'ada', 'Raar'])
+    >>> select_palindromes(['lepel', 'spoon', 'ada', 'Raar'])
     ['lepel', 'ada']
     """
     output = []
