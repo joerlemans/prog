@@ -85,5 +85,5 @@ def select_palindromes(strs: list[str])-> list[str]:
     """
     for i in strs:
         for j in i:
-            ori 
+            
 
