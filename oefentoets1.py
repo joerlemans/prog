@@ -42,7 +42,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     >>> remove_prefix('toedeloe', 'toe')
     'deloe'
     """
-    return s.remo
+    return s.removeprefix
     
 def most_vowely_word(sentence: str)-> str:
     """
