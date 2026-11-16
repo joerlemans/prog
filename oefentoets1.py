@@ -86,7 +86,7 @@ def select_palindromes(strs: list[str])-> list[str]:
     >>> select_palindromes([])
     []
     
-    >>> select_palindromes()
+    >>> select_palindromes(['hallo', 'doei', ])
     """
     output = []
     for i in strs:
