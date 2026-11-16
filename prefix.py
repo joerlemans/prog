@@ -1,1 +1,2 @@
-def prefix()
+def prefix(s, prefix):
+    return s.removeprefix(prefix)
