@@ -83,4 +83,7 @@ def select_palindromes(strs: list[str])-> list[str]:
     select_palindromes([' lepel', 'spoon', 'ada', 'Raar'])
     ['lepel', 'ada']
     """
+    for i in strs:
+        for j in i:
+            
 
