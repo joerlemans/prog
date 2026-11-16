@@ -65,5 +65,5 @@ def most_vowely_word(sentence: str)-> str:
         else:
             word += i
     return output
-            
+
 
