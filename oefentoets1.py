@@ -41,14 +41,18 @@ def remove_prefix(s: str, prefix: str)-> str:
     """
     >>> remove_prefix('toedeloe', 'toe')
     'deloe'
-    
-    >>> remove_prefix('hallo', 'll')
-    'hao'
     """
-    
-    if prefix in s:
-        output += s[len(prefix):]
-    
+    output = ''
+    for i in range(len(s)):
+        frag = ''
+        for j in range(len(prefix)):
+            frag += s[i+j]
+        if frag == prefix:
+            for k in range(len(prefix)-1, len(s)):
+                output += s[k]
+                break
+        output += s[i]
+    return outpu
         
         
 def most_vowely_word(sentence: str)-> str:
