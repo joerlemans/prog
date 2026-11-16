@@ -47,7 +47,7 @@ def remove_prefix(s: str, prefix: str)-> str:
         frag = ''
         for j in range(len(prefix)):
             frag += s[i+j]
-        if frag != prefix:
+        if frag == prefix:
             
         
 def most_vowely_word(sentence: str)-> str:
