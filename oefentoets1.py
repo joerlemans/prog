@@ -43,7 +43,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     'deloe'
     
     >>> remove_prefix('hallo', 'll')
-    'hao'
+    'hallo'
     """
     if not prefix:
         return s
