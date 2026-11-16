@@ -50,6 +50,7 @@ def most_vowely_word(sentence: str)-> str:
     'groene'
     
     >>> most_vowely_word('dit is een test hallo')
+    'hallo'
     """
     output = ''
     most = 0
