@@ -43,7 +43,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     'deloe'
     """
     
-    if s.startswith(prefix):
+    if prefix:
         return s[len(prefix):]
     
         
