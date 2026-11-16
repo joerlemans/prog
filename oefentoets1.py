@@ -46,7 +46,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     """
     
     
-        s.removeprefix(prefix)
+    return s.removeprefix(prefix)
 
     
     
