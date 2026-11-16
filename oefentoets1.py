@@ -84,6 +84,8 @@ def select_palindromes(strs: list[str])-> list[str]:
     ['lepel', 'ada']
     """
     for i in strs:
+        ori = ''
+        rev = ''
         for j in i:
             
 
