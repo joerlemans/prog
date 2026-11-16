@@ -87,7 +87,7 @@ def select_palindromes(strs: list[str])-> list[str]:
         ori = ''
         rev = ''
         for j in range(len(i)):
-            ori.append[i[j]]
+            ori.append(i[j])
         for k in range(len(i), 0):
-            rev.append
+            rev.append(i[j])
 
