@@ -45,11 +45,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     >>> remove_prefix('hallo', '')
     'hallo'
     """
-    if not prefix:
-        return s
-    if len(prefix) > len(s):
-        return s
-    s.removeprefix(prefix)
+    return s.remove_prefix(prefix)
      
     
 
