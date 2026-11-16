@@ -72,7 +72,7 @@ def most_vowely_word(sentence: str)-> str:
             word = ''
             vowels = 0
         else:
-            word +=
+            word += i
     return output
 
 
