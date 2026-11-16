@@ -52,7 +52,7 @@ def remove_prefix(s: str, prefix: str)-> str:
     try:
         s.removeprefix(prefix)
     except:
-            
+           
     
 
 
