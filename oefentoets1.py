@@ -44,7 +44,8 @@ def remove_prefix(s: str, prefix: str)-> str:
     """
     output = ''
     for i in range(len(s)):
-        
+        if text.startswith(prefix):
+    return text[len(prefix):]
     return output
         
         
