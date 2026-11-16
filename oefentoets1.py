@@ -95,5 +95,5 @@ def select_palindromes(strs: list[str])-> list[str]:
             output.append(ori)
     return output
     
-select_palindromes(['lepel'])   
+select_palindromes(['lepel', 'ada'])   
 
