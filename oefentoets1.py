@@ -51,7 +51,7 @@ def most_vowely_word(sentence: str)-> str:
     'groene'
     """
     output = ''
-    
+    most = 0
     vowels = 0
     word = ''
     for i in sentence:
