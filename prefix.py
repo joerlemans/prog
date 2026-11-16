@@ -1,4 +1,4 @@
 def prefix(s, prefix):
     return s.removeprefix(prefix)
 
-prefix('hllo', 'll')
+print(prefix('hllo', 'll')
