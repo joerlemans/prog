@@ -56,6 +56,7 @@ def most_vowely_word(sentence: str)-> str:
     ''
     
     >>> most_vowely_word('hottetottentententen verzamelaarstoonstelling')
+    'verzamelaarstoonstelling'
     """
     output = ''
     most = 0
