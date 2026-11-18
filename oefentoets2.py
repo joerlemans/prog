@@ -35,3 +35,4 @@ def reading_level(s: str)-> float:
         elif i.isalpha:
             mede += 1
         else:
+            words +=1
