@@ -34,4 +34,4 @@ def reading_level(s: str)-> float:
             klink += 1
         elif i.isalpha:
             mede += 1
-        
+        else:
