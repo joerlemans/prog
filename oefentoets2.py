@@ -109,6 +109,7 @@ def vowely_words(words: list[str])-> list[str]:
         for j in i:
             if j in 'aeiou':
                 count += 1
-            if count
+            if count >= 2:
+                
 
     
