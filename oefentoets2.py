@@ -34,7 +34,8 @@ def reading_level(s: str)-> float:
             klink += 1
         elif i == ' ':
             words +=1
-        else
+        else:
+            mede +
     words += 1
     print(klink, mede, words)
     length = (klink + mede) / words
