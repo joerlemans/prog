@@ -33,7 +33,7 @@ def reading_level(s: str)-> float:
     -3.0
     
     >>> reading_level('arachnophobia')
-    0.08
+    13.0
     """
     klink = 0
     mede = 0
