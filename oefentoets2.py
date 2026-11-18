@@ -6,6 +6,9 @@ def split_by_parity(ints: list[int])-> list[list[int]]:
     >>> split_by_parity([])
     [[], []]
     
+    >>> split_by_parity([2, 2, 4, 4])
+    [[2, 2, 4, 4], []]
+    
     >>> split_by_parity([])
     """
     even = []
