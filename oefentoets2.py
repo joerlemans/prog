@@ -5,4 +5,5 @@ def split_by_parity(ints: list[int])-> list[list[int]]:
     """
     even = []
     odd = []
-    
+    for i in ints:
+        if i
