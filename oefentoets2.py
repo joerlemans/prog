@@ -31,4 +31,5 @@ def reading_level(s: str)-> float:
     words = 0
     for i in s:
         if i in 'aeiou':
-            
+            klink += 1
+        elif
