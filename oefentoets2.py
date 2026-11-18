@@ -106,6 +106,7 @@ def encrypt(s: str)-> str:
                 break
             pos += 1
         posr = 25 - pos
+        
         pos= 0
         for l in alfa:
             if pos == posr:
