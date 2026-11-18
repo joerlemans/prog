@@ -10,4 +10,4 @@ def split_by_parity(ints: list[int])-> list[list[int]]:
             even.append(i)
         else:
             odd.append(i)
-    return
+    return []
