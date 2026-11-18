@@ -56,6 +56,6 @@ def longest_word_length(s: str)-> int:
             longest = current
             current = 0
         else:
-            
+            cu
         
     
