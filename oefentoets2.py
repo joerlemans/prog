@@ -77,6 +77,7 @@ def encrypt(s: str)-> str:
     'zyx'
     """
     alfa = 'abcdefghijklmnopqrtsuvwxyz'
+    
     for i in s:
         
 
