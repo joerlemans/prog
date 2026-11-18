@@ -41,3 +41,7 @@ def reading_level(s: str)-> float:
     length = (klink + mede) / words
     return round(((mede - klink) * length), 2)
 
+def longest_word_length(s: str)-> int:
+    """
+    """
+    
