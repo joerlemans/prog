@@ -30,4 +30,5 @@ def reading_level(s: str)-> float:
     mede = 0
     words = 0
     for i in s:
-        if i in
+        if i in 'aeiou':
+            
