@@ -22,4 +22,6 @@ def split_by_parity(ints: list[int])-> list[list[int]]:
     return [even, odd]
 
 def reading_level(s: str)-> float:
-    
+    """
+    >>> reading_level()
+    """
