@@ -33,3 +33,4 @@ def reading_level(s: str)-> float:
         if i.lower in 'aeiou':
             klink += 1
         elif i.isalpha:
+            
