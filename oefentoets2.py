@@ -77,7 +77,7 @@ def encrypt(s: str)-> str:
     'zyx'
     
     >>> encrypt('cdef')
-    'xwvu
+    'xwvu'
     """
     alfa = 'abcdefghijklmnopqrtsuvwxyz'
     encr = ''
