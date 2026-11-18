@@ -117,6 +117,8 @@ def vowely_words(words: list[str])-> list[str]:
     
     >>> vowely_words(['hot', 'boon', 'HAAI'])
     ['boon', 'HAAI']
+    
+    >>> vowely_words([])
     """
     vwly = []
     for i in words:
