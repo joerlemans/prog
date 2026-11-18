@@ -84,6 +84,7 @@ def encrypt(s: str)-> str:
             if i == k:
                 break
             pos += 1
+        
 
 
     
