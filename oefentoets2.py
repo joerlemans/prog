@@ -47,5 +47,7 @@ def longest_word_length(s: str)-> int:
     10
     
     """
-    
+    longest = 0
+    for i in s:
+        
     
