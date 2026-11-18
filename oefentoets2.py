@@ -85,6 +85,7 @@ def encrypt(s: str)-> str:
                 break
             pos += 1
         posr = 25 - pos
+        
 
 
     
