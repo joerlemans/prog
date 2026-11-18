@@ -90,7 +90,8 @@ def encrypt(s: str)-> str:
             if pos == posr:
                 encr += l
             pos += 1
-        
+    return encr
+    
 
 
     
