@@ -73,6 +73,8 @@ def longest_word_length(s: str)-> int:
 
 def encrypt(s: str)-> str:
     """
+    >>> encrypt('abc')
+    '
     """
 
 
