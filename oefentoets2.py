@@ -98,6 +98,7 @@ def encrypt(s: str)-> str:
             pos += 1
     return encr
     
-
+def vowely_words(words: list[str])-> list[str]:
+    
 
     
