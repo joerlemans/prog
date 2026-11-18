@@ -32,8 +32,6 @@ def reading_level(s: str)-> float:
     for i in s:
         if i.lower in 'aeiou':
             klink += 1
-        elif i.isalpha:
-            mede += 1
         else:
             words +=1
     words += 1
