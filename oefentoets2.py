@@ -80,7 +80,7 @@ def encrypt(s: str)-> str:
     'xwvu'
     
     >>> encrypt('hoi')
-    '
+    't
     """
     alfa = 'abcdefghijklmnopqrtsuvwxyz'
     encr = ''
