@@ -23,5 +23,5 @@ def split_by_parity(ints: list[int])-> list[list[int]]:
 
 def reading_level(s: str)-> float:
     """
-    >>> reading_level()
+    >>> reading_level('Mijn naam is Pim')
     """
