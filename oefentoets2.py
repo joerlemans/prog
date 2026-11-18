@@ -52,7 +52,7 @@ def longest_word_length(s: str)-> int:
     for i in s:
         if i.isalpha:
             current += 1
-        if i == ' ' and current > longest:
+        elif i == ' ' and current > longest:
             longest = current
             current = 0
         
