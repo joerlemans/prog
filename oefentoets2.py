@@ -51,7 +51,7 @@ def longest_word_length(s: str)-> int:
     >>> longest_word_length('lahetetty joensuun hotellista')
     10
     
-    >>> longest_word_length('e en jij bent eerste)
+    >>> longest_word_length('e en jij bent eerst)
     """
     longest = 0
     current = 0
