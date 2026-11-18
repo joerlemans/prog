@@ -118,7 +118,8 @@ def vowely_words(words: list[str])-> list[str]:
     >>> vowely_words(['hot', 'boon', 'HAAI'])
     ['boon', 'HAAI']
     
-    >>> vowely_words([])
+    >>> vowely_words(['pap'])
+    []
     """
     vwly = []
     for i in words:
