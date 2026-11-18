@@ -71,6 +71,9 @@ def longest_word_length(s: str)-> int:
         longest = current
     return longest
 
+def encrypt(s: str)-> str:
+    """
+    """
 
 
     
