@@ -27,6 +27,7 @@ def reading_level(s: str)-> float:
     9.75
     
     >>> reading_level('')
+    0.00
     """
     klink = 0
     mede = 0
