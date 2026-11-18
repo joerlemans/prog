@@ -79,7 +79,8 @@ def encrypt(s: str)-> str:
     alfa = 'abcdefghijklmnopqrtsuvwxyz'
     encr = ''
     for i in s:
-        
+        pos = 0
+        for k in alfa:
 
 
     
