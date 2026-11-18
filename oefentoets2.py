@@ -88,7 +88,7 @@ def encrypt(s: str)-> str:
         pos= 0
         for l in alfa:
             if pos == posr:
-                encr
+                encr +=
 
 
     
