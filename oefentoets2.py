@@ -43,6 +43,7 @@ def reading_level(s: str)-> float:
 
 def longest_word_length(s: str)-> int:
     """
-    longest_word_length()
+    longest_word_length('lahetetty joensuun hotellista')
+    10
     """
     
