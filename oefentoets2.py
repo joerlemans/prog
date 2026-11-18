@@ -30,7 +30,6 @@ def reading_level(s: str)-> float:
     mede = 0
     words = 0
     for i in s:
-        char = i.lower
         if char in 'aeiou':
             klink += 1
         elif char == ' ':
