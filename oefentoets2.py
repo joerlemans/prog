@@ -82,6 +82,8 @@ def encrypt(s: str)-> str:
         pos = 0
         for k in alfa:
             if i == k:
+                break
+            
 
 
     
