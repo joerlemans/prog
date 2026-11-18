@@ -30,6 +30,7 @@ def reading_level(s: str)-> float:
     0.0
     
     >>> reading_level('hoi')
+    
     """
     klink = 0
     mede = 0
