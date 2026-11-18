@@ -37,7 +37,6 @@ def reading_level(s: str)-> float:
         else:
             mede += 1
     words += 1
-    print(klink, mede, words)
     length = (klink + mede) / words
     return round(((mede - klink) * length), 2)
 
