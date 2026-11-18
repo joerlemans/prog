@@ -84,6 +84,8 @@ def encrypt(s: str)-> str:
     
     >>> encrypt('hoi')
     'slr'
+    
+    >>> encrypt()
     """
     alfa = 'abcdefghijklmnopqrstuvwxyz'
     encr = ''
