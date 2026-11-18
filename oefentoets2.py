@@ -36,7 +36,7 @@ def reading_level(s: str)-> float:
     13.0
     
     >>> reading_level("Rubber Duck")
-20.0
+    20.0
     """
     klink = 0
     mede = 0
