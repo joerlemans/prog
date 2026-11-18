@@ -52,5 +52,5 @@ def longest_word_length(s: str)-> int:
     for i in s:
         if i.isalpha:
             current += 1
-        elif
+        elif i == ' '
     
