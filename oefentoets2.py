@@ -54,7 +54,7 @@ def longest_word_length(s: str)-> int:
     >>> longest_word_length('e en jij bent eerst cool')
     5
     
-    >>> longest_word_length(')
+    >>> longest_word_length('dit is een test)
     """
     longest = 0
     current = 0
