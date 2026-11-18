@@ -43,5 +43,6 @@ def reading_level(s: str)-> float:
 
 def longest_word_length(s: str)-> int:
     """
+    longest_word_length()
     """
     
