@@ -29,4 +29,5 @@ def reading_level(s: str)-> float:
     klink = 0
     mede = 0
     words = 0
-    
+    for i in s:
+        
