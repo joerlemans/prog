@@ -110,6 +110,6 @@ def vowely_words(words: list[str])-> list[str]:
             if j in 'aeiou':
                 count += 1
             if count >= 2:
-                vwly
+                vwly.append(i)
 
     
