@@ -54,5 +54,7 @@ def longest_word_length(s: str)-> int:
             current += 1
         if i == ' ' and current > longest:
             longest = current
+            current = 0
+        
         
     
