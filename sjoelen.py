@@ -15,7 +15,7 @@ def calculate_points(board: list[int]) -> int:
     57
     """
     points = [2, 3, 4, 1]
-    new = []
+    left = []
     result = 0
     lowest = 100
     for j in board:
