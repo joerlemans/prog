@@ -6,7 +6,7 @@ def calculate_points(board: list[int]) -> int:
     kwartet tussen zit, telt dit voor 20 punten.
     
     >>> calculate_points([4, 3, 3, 5])
-    
+    64
     """
     points = [2, 3, 4, 1]
     result = 0
