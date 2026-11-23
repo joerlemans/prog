@@ -6,6 +6,7 @@ def calculate_points(board: list[int]) -> int:
     kwartet tussen zit, telt dit voor 20 punten.
     """
     points = [2, 3, 4, 1]
+    result = 0
     for j in range(3):
         result += 
 
