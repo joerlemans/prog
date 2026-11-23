@@ -7,6 +7,7 @@ def calculate_points(board: list[int]) -> int:
     """
     points = [2, 3, 4, 1]
     result = 0
+    
     for j in range(4):
         result += board[j] * points[j]
     return result
