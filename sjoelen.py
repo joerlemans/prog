@@ -13,17 +13,17 @@ def shuffle_round(board: list[int], discs: int) -> int:
     het aantal schijven dat nog over is om nog eens mee te schuiven.
     """
     for i in range(29):
-    x = random.uniform(0, 1)
-    if x <= 0.25:
-        y = random.uniform(0, 1)
-        if y <= 0.3:
-            board[0] += 1
-        elif 0.3 < y <= 0.5:
-            board[1] += 1
-        elif 0.5 < y <= 0.7:
-            board[2] += 1
-        else:
-            board[3] += 1
+        x = random.uniform(0, 1)
+        if x <= 0.25:
+            y = random.uniform(0, 1)
+            if y <= 0.3:
+                board[0] += 1
+            elif 0.3 < y <= 0.5:
+                board[1] += 1
+            elif 0.5 < y <= 0.7:
+                board[2] += 1
+            else:
+                board[3] += 1
 
 if __name__ == '__main__':
     <Zet het bord klaar, simuleer drie rondes en
