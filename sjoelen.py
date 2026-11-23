@@ -5,6 +5,7 @@ def calculate_points(board: list[int]) -> int:
     volgorde van de punten is [2, 3, 4, 1]. Wanneer er een
     kwartet tussen zit, telt dit voor 20 punten.
     """
+    
 
 def shuffle_round(board: list[int], discs: int) -> int:
     """
