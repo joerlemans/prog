@@ -25,7 +25,7 @@ def calculate_points(board: list[int]) -> int:
     for p in range(4):
         left.append(board[p] - lowest)
     for q in range(4):
-        result += new[q] * points[q]
+        result += left[q] * points[q]
     return result
 
 def shuffle_round(board: list[int], discs: int) -> int:
