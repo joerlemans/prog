@@ -1,4 +1,4 @@
-Board = [[]]list[list[int]]
+Board = [[],]list[list[int]]
 
 def is_won(board: Board) -> bool:
     """
