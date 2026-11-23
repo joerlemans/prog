@@ -20,6 +20,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
         elif 0.3 < y <= 0.5:
             board[1] += 1
         elif 0.5 < y <= 0.7:
+            board[2] += 1
         else:
 
 if __name__ == '__main__':
