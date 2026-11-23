@@ -32,6 +32,8 @@ def shuffle_round(board: list[int], discs: int) -> int:
     Simuleert een enkele ronde sjoelen. De variable `board` wordt
     aangepast als er een schijf in een gleuf terecht komt. Returnt
     het aantal schijven dat nog over is om nog eens mee te schuiven.
+    
+    >>> shuffle_round()
     """
     scored = 0
     for i in range(discs):
