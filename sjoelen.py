@@ -11,7 +11,7 @@ def calculate_points(board: list[int]) -> int:
     for j in board:
         if j < lowest:
             lowest = j
-    result += int(20 * lowest
+    result += int(20 * lowest)
     for p in range(4):
         board[p] -= lowest
     for q in range(4):
