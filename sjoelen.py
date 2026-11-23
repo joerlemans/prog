@@ -39,4 +39,4 @@ if __name__ == '__main__':
     for k in range (3):
         discs = shuffle_round(board, discs)
     print(f"Je bent geëindigd op deze configuratie: {board}")
-    print(f"calculate_points(board))
+    print(f"calculate_points(board)}")
