@@ -12,7 +12,7 @@ def calculate_points(board: list[int]) -> int:
     62
     
     >>> calculate_points([6, 2, 3, 7])
-    
+    57
     """
     points = [2, 3, 4, 1]
     result = 0
