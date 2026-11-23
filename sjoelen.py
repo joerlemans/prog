@@ -40,7 +40,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     >>> 0 <= result <= 10
     True
     
-    >>> result = shuffle_round([2, 3, 5, 6], 20)
+    >>> result = shuffle_round([4, 3, 5, 6], 20)
     >>> 0 <= result <= 20
     True
     
