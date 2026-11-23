@@ -14,7 +14,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     """
     x = random.uniform(0, 1)
     if x <= 0.25:
-        
+        y = random
 
 if __name__ == '__main__':
     <Zet het bord klaar, simuleer drie rondes en
