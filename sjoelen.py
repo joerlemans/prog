@@ -16,6 +16,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     if x <= 0.25:
         y = random.uniform(0, 1)
         if y <= 0.3:
+            board[0] += 1
         elif 0.3 < y <= 0.5:
         elif 0.5 < y <= 0.7:
         else:
