@@ -13,7 +13,8 @@ def shuffle_round(board: list[int], discs: int) -> int:
     het aantal schijven dat nog over is om nog eens mee te schuiven.
     """
     x = random.uniform(0, 1)
-    
+    if x <= 0.25:
+        
 
 if __name__ == '__main__':
     <Zet het bord klaar, simuleer drie rondes en
