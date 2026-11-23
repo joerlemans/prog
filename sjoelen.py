@@ -38,4 +38,5 @@ if __name__ == '__main__':
     discs = 30
     for k in range (3):
         discs = shuffle_round(board, discs)
+    
     print(calculate_points(board))
