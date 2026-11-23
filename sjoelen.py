@@ -7,7 +7,7 @@ def calculate_points(board: list[int]) -> int:
     """
     points = [2, 3, 4, 1]
     result = 0
-    lowest = 
+    lowest = float("inf")
     for j in board:
         
     for j in range(4):
