@@ -12,6 +12,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     aangepast als er een schijf in een gleuf terecht komt. Returnt
     het aantal schijven dat nog over is om nog eens mee te schuiven.
     """
+    random.uni
 
 if __name__ == '__main__':
     <Zet het bord klaar, simuleer drie rondes en
