@@ -34,7 +34,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     het aantal schijven dat nog over is om nog eens mee te schuiven.
     
     >>> shuffle_round([0, 0, 0, 0], 0)
-    
+    0
     """
     scored = 0
     for i in range(discs):
