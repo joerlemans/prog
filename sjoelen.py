@@ -23,7 +23,6 @@ def shuffle_round(board: list[int], discs: int) -> int:
     """
     for i in range(discs):
         x = random.uniform(0, 1)
-        scored = 0
         if x <= 0.25:
             y = random.uniform(0, 1)
             if y <= 0.3:
