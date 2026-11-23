@@ -32,4 +32,4 @@ if __name__ == '__main__':
     board = [0, 0, 0, 0]
     discs = 30
     for k in range (3):
-    discs = shuffle_round(board, discs)
+        discs = shuffle_round(board, discs)
