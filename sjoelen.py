@@ -34,3 +34,4 @@ if __name__ == '__main__':
      de staat van het sjoelbord>
     start = [0, 0, 0, 0]
     discs = 30
+    
