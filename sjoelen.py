@@ -24,7 +24,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
                 board[2] += 1
             else:
                 board[3] += 1
-            
+            scored
 
 if __name__ == '__main__':
     <Zet het bord klaar, simuleer drie rondes en
