@@ -31,4 +31,5 @@ def shuffle_round(board: list[int], discs: int) -> int:
 if __name__ == '__main__':
     board = [0, 0, 0, 0]
     discs = 30
+    
     discs = shuffle_round(board, discs)
