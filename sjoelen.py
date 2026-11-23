@@ -37,7 +37,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     0
     
     >>> shuffle_round([2, 3, 5, 6], 10)
-    9
+    
     """
     scored = 0
     for i in range(discs):
