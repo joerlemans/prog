@@ -30,7 +30,7 @@ def create_board() -> Board:
 if __name__ == '__main__':
     print("Welkom bij de schuifpuzzel!")
     board = create_board()
-    
+    print(board)
     while not is_won(board):
         print_board(board)
         tile = input("Tegel die je wil schuiven: ")
