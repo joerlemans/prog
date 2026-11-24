@@ -25,7 +25,7 @@ def create_board() -> Board:
     Sorteert de nummers op aflopende volgorde van links boven naar rechts beneden.
     De volgorde van de tegels 1 en 2 is verwisseld.
     """
-    Board.append()
+    Board.append(1)
 
 if __name__ == '__main__':
     print("Welkom bij de schuifpuzzel!")
